@@ -1,6 +1,6 @@
 #Bootstrap 5 for IE8 (Alpha)
 
-Bootstrap 3 drops support for Internet Explorer 7, but you can add it back by simply adding this conditional CSS.
+Bootstrap 3 drops support for Internet Explorer 8, but you can add it back by simply adding this conditional CSS.
 
 ```html
 <!--[if lt IE 9]>
