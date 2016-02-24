@@ -1,0 +1,5 @@
+input[type=checkbox],input[type=radio]{margin-top:1px}
+.checkbox input[type=checkbox],.checkbox-inline input[type=checkbox],.radio input[type=radio],.radio-inline input[type=radio]{margin-top:4px}
+.caret{border-top:4px solid}
+.dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-bottom:4px solid}
+.carousel-indicators li{background-color:#000}
