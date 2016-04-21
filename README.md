@@ -7,8 +7,7 @@ Bootstrap 3 drops support for Internet Explorer 8, but you can add it back by si
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
     <!--[if lt IE 9]>
       <link href="/css/bootstrap-ie8.css" rel="stylesheet">
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3,respond@1.4.2"></script>
     <![endif]-->
 ```
 
