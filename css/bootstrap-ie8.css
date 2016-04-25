@@ -1,4 +1,17 @@
-input[type=checkbox],input[type=radio]{margin-top:1px}
+body{font-size:16px}
+h1, h2, h3, h4, h5, h6{margin-bottom:8px}
+p{margin-bottom:16px}
+address{margin-bottom:16px}
+ol,ul,dl{margin-bottom:16px}
+dd{margin-bottom:8px}
+blockquote{margin:0 0 16px}
+pre{margin-bottom:16px}
+figure{margin:0 0 16px}
+caption{padding-top:12px;padding-bottom:12px}
+label{margin-bottom:8px}
+legend{margin-bottom:8px;font-size:24px}
+hr{margin-top:16px;margin-bottom:16px;border-top:1px solid #000}
+
 .checkbox input[type=checkbox],.checkbox-inline input[type=checkbox],.radio input[type=radio],.radio-inline input[type=radio]{margin-top:4px}
 .caret{border-top:4px solid}
 .dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-bottom:4px solid}
