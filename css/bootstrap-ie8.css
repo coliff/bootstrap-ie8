@@ -11,6 +11,22 @@ caption{padding-top:12px;padding-bottom:12px}
 label{margin-bottom:8px}
 legend{margin-bottom:8px;font-size:24px}
 hr{margin-top:16px;margin-bottom:16px;border-top:1px solid #000}
+h1{font-size:40px}
+h2{font-size:32px}
+h3{font-size:28px}
+h4{font-size:24px}
+h5{font-size:20px}
+h6{font-size:16px}
+
+.lead{font-size:16px}
+.dl-horizontal{margin-right:-30px;margin-left:-30px}
+.blockquote-reverse{padding-right:16px;border-right:4px solid #eceeef}
+.img-thumbnail{padding:4px}
+.figure-img{margin-bottom:8px}
+.container{padding-right:15px;padding-left:15px}
+.form-control{padding:6px 12px;font-size:16px}
+.form-control-static{min-height:36px;padding-top:6px;padding-bottom:6px}
+.form-group{margin-bottom:16px}
 
 .checkbox input[type=checkbox],.checkbox-inline input[type=checkbox],.radio input[type=radio],.radio-inline input[type=radio]{margin-top:4px}
 .caret{border-top:4px solid}
