@@ -27,6 +27,20 @@ h6{font-size:16px}
 .form-control{padding:6px 12px;font-size:16px}
 .form-control-static{min-height:36px;padding-top:6px;padding-bottom:6px}
 .form-group{margin-bottom:16px}
+.fade{filter:alpha(opacity=0}
+.fade.in{filter:alpha(opacity=100}
+.dropdown-toggle:after{margin-right:4px;margin-left:4px}
+.dropdown-menu{font-size:16px;border:1px solid #000}
+.dropdown-divider{margin:8px 0}
+.dropdown-header{font-size:14px}
+.input-group-addon{padding:6px 12px;font-size:16px}
+.navbar{padding:8px 16px}
+.navbar-brand{padding-top:4px;padding-bottom:4px;margin-right:16px;font-size:20px}
+.navbar-divider{padding-top:6.8px;padding-bottom:6.8px;margin-right:16px;margin-left:16px}
+.navbar-toggler{padding: 8px 12px;font-size: 20px}
+.card{margin-bottom:12px}
+.card-block{padding:20px}
+.card-title{margin-bottom:12px}
 
 .checkbox input[type=checkbox],.checkbox-inline input[type=checkbox],.radio input[type=radio],.radio-inline input[type=radio]{margin-top:4px}
 .caret{border-top:4px solid}
