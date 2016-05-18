@@ -12,14 +12,12 @@ Bootstrap 4 drops support for Internet Explorer 8, but you can add it back by si
 
 ### FAQS
 
-* Q. Is this ready to use? 
+* Q. What about IE7 ? 
 
-  A. Not yet.
+  A. This doesn't include any IE7-specific fixes, but it should make it look more presentable 
 
 
 ### Known Issues
-- Bootstrap v4 uses rem units for layout which IE8 doesn't support so we need to provide grid layour CSS in px.
-- This is not complete yet.
+- Bootstrap v4 uses rem units for layout which IE8 doesn't support so we need to provide grid layout CSS in px.
 - As this is only a CSS stylesheet there may be problems with using Bootstrap 4's JavaScript in IE8
-
-
+- This is not complete yet.
