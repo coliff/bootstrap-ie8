@@ -1,4 +1,4 @@
-#Bootstrap 4 for IE8 (Alpha)
+#Bootstrap 4 for IE8 (Alpha 5)
 
 Bootstrap 4 drops support for Internet Explorer 8, but you can add it back by simply adding this conditional CSS and a CDN-hosted JavaScript file to polyfill media query and HTML5 element support.
 
@@ -12,10 +12,13 @@ Bootstrap 4 drops support for Internet Explorer 8, but you can add it back by si
 
 ### FAQS
 
-* Q. What about IE7 ? 
+* Q. What about IE7?
 
   A. This doesn't include any IE7-specific fixes, but it should make it look more presentable 
 
+* Q. Will the CSS be hosted on a CDN?
+
+  A. Unfortunately, RespondJS (which is required to polyfill Media Query support) only works with local CSS so the Bootstrap IE8 CSS needs to be hosted locally so there is little point in having the CSS hosted on a CDN for you to hotlink to. 
 
 ### Known Issues
 - Bootstrap v4 uses rem units for layout which IE8 doesn't support so we need to provide grid layout CSS in px.
