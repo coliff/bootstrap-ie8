@@ -22,5 +22,5 @@ Bootstrap 4 drops support for Internet Explorer 8, but you can add it back by si
 
 ### Known Issues
 - Bootstrap v4 uses rem units for layout which IE8 doesn't support so we need to provide grid layout CSS in px.
-- As this is only a CSS stylesheet there may be problems with using Bootstrap 4's JavaScript in IE8
+- As this is only a CSS stylesheet there are problems with using Bootstrap 4's JavaScript in IE8. An easy workaround is to include a link to the Bootstrap v3 JS file (this fixes the dropdown menus) wtihin the conditional statement.
 - This is not complete yet.
