@@ -1,9 +1,9 @@
-#Bootstrap 4 for IE8 (Alpha 5)
+#Bootstrap 4 for IE8 and IE9 (Alpha 6)
 
-Bootstrap 4 drops support for Internet Explorer 8, but you can add it back by simply adding this conditional CSS and a CDN-hosted JavaScript file to polyfill media query and HTML5 element support.
+Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding this conditional CSS and a CDN-hosted JavaScript file to polyfill media query and HTML5 element support.
 
 ```html
-    <!--[if lt IE 9]>
+    <!--[if lte IE 9]>
       <link href="/css/bootstrap-ie8.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3,respond@1.4.2"></script>
     <![endif]-->
