@@ -3,7 +3,7 @@
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding this conditional CSS and a CDN-hosted JavaScript file to polyfill media query and HTML5 element support.
 
 ```html
-    <!--[if lte IE 9]>
+    <!--[if IE]>
       <link href="/css/bootstrap-ie8.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3,respond@1.4.2"></script>
     <![endif]-->
