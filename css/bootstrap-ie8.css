@@ -70,8 +70,8 @@ h6{font-size:16px}
 .dropdown-menu{font-size:16px;min-width:160px;padding:8px 0;margin:2px 0 0;border:1px solid #000}
 .dropdown-toggle:after{margin-right:4px;margin-left:4px}
 .dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-bottom:4px solid}
-.fade.show{filter:alpha(opacity=100}
-.fade{filter:alpha(opacity=0}
+.fade.show{filter:alpha(opacity=100)}
+.fade{filter:alpha(opacity=0)}
 .figure-img{margin-bottom:8px}
 .form-check{margin-bottom:12px}
 .form-check-inline{padding-left:20px}
