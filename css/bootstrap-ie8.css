@@ -27,6 +27,9 @@ h6{font-size:16px}
 .blockquote-reverse{padding-right:16px;border-right:4px solid #eceeef}
 .breadcrumb{padding:12px 16px;margin-bottom:16px}
 .btn{padding:8px 16px;font-size:16px}
+.btn + .dropdown-toggle-split{padding-right:9px;padding-left:9px}
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split{padding-right:6px;padding-left:6px}
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {padding-right:12px;padding-left:12px}
 .btn.disabled,.btn:disabled{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
 .card{margin-bottom:12px;border:1px solid #000}
@@ -51,13 +54,15 @@ h6{font-size:16px}
 .col-form-label-sm{padding-top:4px;padding-bottom:4px;font-size:14px}
 .col-form-legend{padding-top:8px;padding-bottom:8px;font-size:16px}
 .container{padding-right:15px;padding-left:15px}
-.custom-control{padding-left:24px}
+.custom-control{min-height:24px;padding-left:24px;margin-right:16px}
 .custom-control-indicator{top:4px;width:16px;height:16px}
 .custom-control-input{filter:alpha(opacity=0)}
+.custom-controls-stacked .custom-control{margin-bottom:4px}
 .custom-file{height:40px}
-.custom-file-control{height:40px;padding:8px 16px}
-.custom-file-input{min-width:224px}
-.custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none \9;padding-right: 0.75rem \9;}
+.custom-file-control{height:40px;padding:8px 16px;border: 1px solid #000}
+.custom-file-control:before{height:40px;padding:8px 16px;border: 1px solid #000}
+.custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
+.custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none \9;padding-right: 0.75rem \9}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
 .display-1{font-size:96px}
 .display-2{font-size:88px}
@@ -79,16 +84,21 @@ h6{font-size:16px}
 .form-check-label{padding-left:20px}
 .form-control{padding:8px 12px;font-size:16px;border:1px solid #000}
 .form-control-feedback{margin-top:4px}
+.form-control-plaintext{padding-top:8px;padding-bottom:8px}
 .form-control-static{padding-top:8px;padding-bottom:8px}
 .form-group{margin-bottom:16px}
 .form-text{margin-top:4px}
 .img-thumbnail{padding:4px}
-.input-group-addon{padding:6px 12px;font-size:16px;border:1px solid #000}
+.input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #000}
+.invalid-feedback{margin-top:4px;font-size:14px}
+.invalid-tooltip{padding:8px;margin-top:2px;font-size:14px;background-color:#dc3545}
 .jumbotron{padding:32px 16px;margin-bottom:32px}
 .lead{font-size:20px}
-.list-group-item{padding:12px 20px;border: 1px solid #000}
+.list-group-item{padding:12px 20px;border:1px solid #000}
+.list-group-item:last-child{border-bottom-right-radius:4px;border-bottom-left-radius:4px}
 .modal-backdrop.fade{filter:alpha(opacity=0)}
 .modal-backdrop.show{filter:alpha(opacity=50)}
+.modal-content{border: 1px solid #000}
 .m-1{margin: 16px 16px !important}
 .mt-1{margin-top: 16px !important}
 .mr-1{margin-right: 16px !important}
@@ -110,13 +120,16 @@ h6{font-size:16px}
 .ml-3{margin-left: 48px !important}
 .mx-3{margin-right: 48px !important;margin-left: 48px !important}
 .my-3{margin-top: 48px !important;margin-bottom: 48px !important}
+.nav-link{padding:8px 16px}
+.nav-tabs .nav-link{border-top-left-radius:4px;border-top-right-radius:4px}
 .navbar{padding:8px 16px}
-.navbar-brand{padding-top:4px;padding-bottom:4px;margin-right:16px;font-size:20px}
+.navbar-brand{padding-top:5px;padding-bottom:5px;margin-right:16px;font-size:20px}
 .navbar-dark .navbar-divider{background-color:#fff}
 .navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-nav .nav-link:focus{color:#fff}
 .navbar-dark .navbar-nav .nav-link:hover{color:#fff}
 .navbar-divider{padding-top:6.8px;padding-bottom:6.8px;margin-right:16px;margin-left:16px}
 .navbar-nav .nav-link{padding-top:6.8px;padding-bottom:6.8px}
+.navbar-text{padding-top:8px;padding-bottom:8px}
 .navbar-toggler{padding:8px 12px;font-size:20px}
 .navbar-toggleable-xl .navbar-nav .nav-link{padding-right:8px;padding-left:8px}
 .p-a-1{padding:16px 16px !important}
@@ -145,7 +158,7 @@ h6{font-size:16px}
 .pagination-lg .page-link{padding:12px 24px;font-size:20px}
 .pagination-sm .page-link{padding:4.4px 12px;font-size:14px}
 .popover{font-size:14px;border:1px solid #000}
-.popover-title{font-size:16px}
+.popover-header{font-size:16px}
 .progress{height:16px;margin-bottom:16px}
 .rounded-top{border-top-right-radius:4px;border-top-left-radius:4px}
 .rounded-right{border-bottom-right-radius:4px;border-top-right-radius:4px}
@@ -155,5 +168,5 @@ h6{font-size:16px}
 .table{margin-bottom:16px}
 .table-sm th,.table-sm td{padding:5px}
 .table-responsive{min-height:0%}
-.tooltip{font-size:14px}
+.tooltip{font-size:14px;filter:alpha(opacity=0)}
 .tooltip.show{filter:alpha(opacity=90)}
