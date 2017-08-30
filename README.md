@@ -1,4 +1,4 @@
-# Bootstrap 4 for IE8 and IE9 (Alpha 6)
+# Bootstrap 4 for IE8 and IE9 (Beta)
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill media query and HTML5 element support.
 
