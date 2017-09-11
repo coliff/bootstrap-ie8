@@ -376,22 +376,22 @@ h6{font-size:16px}
     max-width: none;
   }
   .col-lg-1 {
-    max-width: 8.333333%;
+    max-width: 6.333333%\9;
   }
   .col-lg-2 {
-    max-width: 16.666667%;
+    max-width: 13.666667%\9;
   }
   .col-lg-3 {
-    max-width: 25%;
+    max-width: 23%\9;
   }
   .col-lg-4 {
-    max-width: 33.333333%;
+    max-width: 31.333333%\9;
   }
   .col-lg-5 {
-    max-width: 41.666667%;
+    max-width: 39.666667%\9;
   }
   .col-lg-6 {
-    max-width: 50%;
+    max-width: 48%\9;
   }
   .col-lg-7 {
     max-width: 58.333333%;
