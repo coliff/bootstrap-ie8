@@ -330,16 +330,16 @@ h6{font-size:16px}
     max-width: 16.666667%;
   }
   .col-md-3 {
-    max-width: 25%;
+    max-width: 23%\9;
   }
   .col-md-4 {
-    max-width: 33.333333%;
+    max-width: 31.333333%\9;
   }
   .col-md-5 {
-    max-width: 41.666667%;
+    max-width: 39.666667%\9;
   }
   .col-md-6 {
-    max-width: 50%;
+    max-width: 48%\9;
   }
   .col-md-7 {
     max-width: 58.333333%;
