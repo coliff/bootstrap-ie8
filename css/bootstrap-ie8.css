@@ -62,7 +62,7 @@ h6{font-size:16px}
 .custom-file-control{height:40px;padding:8px 16px;border:1px solid #000}
 .custom-file-control:before{height:40px;padding:8px 16px;border:1px solid #000}
 .custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
-.custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none \9;padding-right:0.75rem \9}
+.custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none;padding-right:12px}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
 .display-1{font-size:96px}
 .display-2{font-size:88px}
@@ -229,33 +229,33 @@ h6{font-size:16px}
 .col-md-auto{width:auto;max-width:none}
 .col-md-1{max-width:8.333333%}
 .col-md-2{max-width:16.666667%}
-.col-md-3{max-width/*\**/:23%\9}
-.col-md-4{max-width/*\**/:31.333333%\9}
-.col-md-5{max-width/*\**/:39.666667%\9}
-.col-md-6{max-width/*\**/:48%\9}
-.col-md-7{max-width/*\**/:58.333333%\9}
-.col-md-8{max-width/*\**/:66.666667%\9}
-.col-md-9{max-width/*\**/:75%\9}
-.col-md-10{max-width/*\**/:83.333333%\9}
-.col-md-11{max-width/*\**/:91.666667%\9}
-.col-md-12{max-width/*\**/:100%\9}
+.col-md-3{max-width:23%}
+.col-md-4{max-width:31.333333%}
+.col-md-5{max-width:39.666667%}
+.col-md-6{max-width:48%}
+.col-md-7{max-width:58.333333%}
+.col-md-8{max-width:66.666667%}
+.col-md-9{max-width:75%}
+.col-md-10{max-width:83.333333%}
+.col-md-11{max-width:91.666667%}
+.col-md-12{max-width:100%}
 
 /** All media-queries (min-width:992px) **/
 .container{max-width:960px}
 .col-lg{max-width:100%}
 .col-lg-auto{width:auto;max-width:none}
-.col-lg-1{max-width/*\**/:6.333333%\9}
-.col-lg-2{max-width/*\**/:13.666667%\9}
-.col-lg-3{max-width/*\**/:23%\9}
-.col-lg-4{max-width/*\**/:31.333333%\9}
-.col-lg-5{max-width/*\**/:39.666667%\9}
-.col-lg-6{max-width/*\**/:48%\9}
-.col-lg-7{max-width/*\**/:58.333333%\9}
-.col-lg-8{max-width/*\**/:66.666667%\9}
-.col-lg-9{max-width:75%\9}
-.col-lg-10{max-width:83.333333%\9}
-.col-lg-11{max-width:91.666667%\9}
-.col-lg-12{max-width:100%\9}
+.col-lg-1{max-width:6.333333%}
+.col-lg-2{max-width:13.666667%}
+.col-lg-3{max-width:23%}
+.col-lg-4{max-width:31.333333%}
+.col-lg-5{max-width:39.666667%}
+.col-lg-6{max-width:48%}
+.col-lg-7{max-width:58.333333%}
+.col-lg-8{max-width:66.666667%}
+.col-lg-9{max-width:75%}
+.col-lg-10{max-width:83.333333%}
+.col-lg-11{max-width:91.666667%}
+.col-lg-12{max-width:100%}
 .navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}
 .navbar-expand-lg .navbar-nav .dropdown-menu-right{right:0;left:auto}
 .navbar-expand-lg .navbar-nav .nav-link{padding-right:8px;padding-left:8px}
