@@ -23,21 +23,27 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 ### FAQS
 
 **Q. What does this fix/polyfill?**
+
 A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units so all units are specified in pixels. Media Queries are also not supported so IE8 has a fixed-width layout (min-width 998px).
 
 **Q. What about IE7?**
+
 A. This doesn't include any IE7-specific fixes, but it should make it look more presentable. 
 
 **Q. Will the CSS be hosted on a CDN?**
+
 A. Yes, in a future release. 
 
 **Q. Why is the JavaScript completely broken on IE8?**
+
 A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e
 
 **Q. Will you provide LESS/SASS files?**
+
 A. No. These should be ready to use in production.
 
 **Q. Do I need the RespondJS polyfill for IE8 like Bootstrap 3 uses?**
+
 A. No. Instead the CSS is set to be fixed-width which makes things a lot easier. You don't need to change your HTML markup, the CSS will take care of it as the (min-width:992px) media queries are all set.
 
 ### Known Issues
