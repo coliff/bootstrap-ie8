@@ -68,6 +68,7 @@ h6{font-size:16px}
 .custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
 .custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none;padding-right:12px}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
+.disabled{filter:alpha(opacity=65)}
 .display-1{font-size:96px}
 .display-2{font-size:88px}
 .display-3{font-size:72px}
