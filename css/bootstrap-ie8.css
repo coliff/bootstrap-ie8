@@ -10,6 +10,7 @@ dd{margin-bottom:8px}
 blockquote{margin:0 0 16px}
 pre{margin-bottom:16px}
 figure{margin:0 0 16px}
+button .disabled{filter:alpha(opacity=65)}
 caption{padding-top:12px;padding-bottom:12px}
 label{margin-bottom:8px}
 legend{margin-bottom:8px;font-size:24px}
@@ -33,7 +34,7 @@ h6{font-size:16px}
 .btn + .dropdown-toggle-split{padding-right:9px;padding-left:9px}
 .btn-sm + .dropdown-toggle-split,.btn-group-sm > .btn + .dropdown-toggle-split{padding-right:6px;padding-left:6px}
 .btn-lg + .dropdown-toggle-split,.btn-group-lg > .btn + .dropdown-toggle-split{padding-right:12px;padding-left:12px}
-.btn.disabled,.btn:disabled{filter:alpha(opacity=65)}
+.btn.disabled,.btn[disabled],.btn:disabled,fieldset[disabled] .btn{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
 .card{margin-bottom:12px;border:1px solid #000}
 .card-block{padding:20px}
