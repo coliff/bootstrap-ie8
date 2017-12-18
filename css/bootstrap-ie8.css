@@ -29,6 +29,7 @@ h6{font-size:16px}
 .alert-dismissible .close{top:-2px;right:-20px}
 .blockquote{padding:8px 16px;margin-bottom:16px;font-size:20px}
 .breadcrumb{padding:12px 16px;margin-bottom:16px}
+.breadcrumb-item{display:inline-block}
 .btn{padding:8px 16px;font-size:16px}
 .btn-sm{font-size:14px;padding: 4px 8px}
 .btn-lg{font-size:20px;padding: 8px 16px}
