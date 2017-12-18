@@ -31,6 +31,8 @@ h6{font-size:16px}
 .blockquote-reverse{padding-right:16px;border-right:4px solid #eceeef}
 .breadcrumb{padding:12px 16px;margin-bottom:16px}
 .btn{padding:8px 16px;font-size:16px}
+.btn-sm{font-size:14px}
+.btn-lg{font-size:20px}
 .btn + .dropdown-toggle-split{padding-right:9px;padding-left:9px}
 .btn-sm + .dropdown-toggle-split,.btn-group-sm > .btn + .dropdown-toggle-split{padding-right:6px;padding-left:6px}
 .btn-lg + .dropdown-toggle-split,.btn-group-lg > .btn + .dropdown-toggle-split{padding-right:12px;padding-left:12px}
@@ -38,7 +40,7 @@ h6{font-size:16px}
 .btn-toolbar{margin-left:-8px}
 .card{margin-bottom:12px;border:1px solid #ddd}
 .card-block{padding:20px}
-.card-body{padding:12px}
+.card-body{padding:20px}
 .card-footer{padding:12px 20px;border-top:1px solid #ddd;background-color:#F7F7F7}
 .card-header{padding:12px 20px;background-color:#F7F7F7;border-bottom:1px solid #ddd}
 .card-header-tabs{margin-right:-10px;margin-bottom:-12px;margin-left:-10px;border-bottom:0}
@@ -46,6 +48,7 @@ h6{font-size:16px}
 .card-img-overlay{padding:20px}
 .card-subtitle{margin-top:-6px}
 .card-title{margin-bottom:12px}
+.card-link + .card-link{margin-left:20px}
 .caret{border-top:4px solid}
 .carousel-control-prev,.carousel-control-next{filter:alpha(opacity=50)}
 .carousel-control-prev:focus,.carousel-control-prev:hover,.carousel-control-next:focus,.carousel-control-next:hover{filter:alpha(opacity=90)}
@@ -98,7 +101,7 @@ h6{font-size:16px}
 .input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}
 .invalid-feedback{margin-top:4px;font-size:14px}
 .invalid-tooltip{padding:8px;margin-top:2px;font-size:14px;background-color:#dc3545}
-.jumbotron{padding:32px 16px;margin-bottom:32px}
+.jumbotron{padding:64px 32px;margin-bottom:32px}
 .lead{font-size:20px}
 .list-group-item{padding:12px 20px;border:1px solid #ddd}
 .list-group-item:last-child{border-bottom-right-radius:4px;border-bottom-left-radius:4px}
