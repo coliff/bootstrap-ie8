@@ -24,7 +24,7 @@ h4{font-size:24px}
 h5{font-size:20px}
 h6{font-size:16px}
 
-.alert{margin-bottom:16px}
+.alert{margin-bottom:16px;padding:12px}
 .alert-dismissible{padding-right:40px}
 .alert-dismissible .close{top:-2px;right:-20px}
 .blockquote{padding:8px 16px;margin-bottom:16px;font-size:20px;border-left:4px solid #eceeef}
