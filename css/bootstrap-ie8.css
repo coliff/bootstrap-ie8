@@ -37,6 +37,7 @@ h6{font-size:16px}
 .btn-sm + .dropdown-toggle-split,.btn-group-sm > .btn + .dropdown-toggle-split{padding-right:6px;padding-left:6px}
 .btn-lg + .dropdown-toggle-split,.btn-group-lg > .btn + .dropdown-toggle-split{padding-right:12px;padding-left:12px}
 .btn.disabled,.btn[disabled],.btn:disabled,fieldset[disabled] .btn{filter:alpha(opacity=65)}
+.bs-component > .disabled{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
 .card{margin-bottom:12px;border:1px solid #ddd}
 .card-block{padding:20px}
@@ -91,8 +92,8 @@ h6{font-size:16px}
 .form-check-input{margin-top:4px;margin-left:-20px}
 .form-check-label{padding-left:20px}
 .form-control{padding:8px 12px;font-size:16px;border:1px solid #ddd}
-.form-control .is-valid{border-color:#28a745!important}
-.form-control .is-invalid{border-color:#dc3545!important}
+.form-group > .is-valid{border-color:#28a745!important}
+.form-group > .is-invalid{border-color:#dc3545!important}
 .form-control-feedback{margin-top:4px}
 .form-control-plaintext{padding-top:8px;padding-bottom:8px}
 .form-control-static{padding-top:8px;padding-bottom:8px}
