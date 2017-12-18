@@ -91,6 +91,7 @@ h6{font-size:16px}
 .form-check-input{margin-top:4px;margin-left:-20px}
 .form-check-label{padding-left:20px}
 .form-control{padding:8px 12px;font-size:16px;border:1px solid #ddd}
+.form-control .is-valid{border-color:#28a745}
 .form-control-feedback{margin-top:4px}
 .form-control-plaintext{padding-top:8px;padding-bottom:8px}
 .form-control-static{padding-top:8px;padding-bottom:8px}
