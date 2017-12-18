@@ -38,12 +38,13 @@ h6{font-size:16px}
 .btn-toolbar{margin-left:-8px}
 .card{margin-bottom:12px;border:1px solid #000}
 .card-block{padding:20px}
-.card-footer{padding:12px 20px;border-top:1px solid #000}
-.card-header{padding:12px 20px}
+.card-footer{padding:12px 20px;border-top:1px solid #000;background-color:#F7F7F7}
+.card-header{padding:12px 20px;background-color:#F7F7F7}
 .card-header-tabs{margin-right:-10px;margin-bottom:-12px;margin-left:-10px;border-bottom:0}
 .card-header-pills{margin-right:-10px;margin-left:-10px}
 .card-img-overlay{padding:20px}
 .card-subtitle{margin-top:-6px}
+.card-header{background-color:#eee}
 .card-title{margin-bottom:12px}
 .caret{border-top:4px solid}
 .carousel-control-prev,.carousel-control-next{filter:alpha(opacity=50)}
