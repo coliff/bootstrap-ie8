@@ -30,6 +30,7 @@ h6{font-size:16px}
 .blockquote{padding:8px 16px;margin-bottom:16px;font-size:20px}
 .breadcrumb{padding:12px 16px;margin-bottom:16px}
 .breadcrumb-item{display:inline-block}
+.breadcrumb-item + li:before{padding:0 5px;color:#ccc;content: "/\00a0";}
 .btn{padding:8px 16px;font-size:16px}
 .btn-sm{font-size:14px;padding: 4px 8px}
 .btn-lg{font-size:20px;padding: 8px 16px}
