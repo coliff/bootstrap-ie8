@@ -36,15 +36,14 @@ h6{font-size:16px}
 .btn-lg + .dropdown-toggle-split,.btn-group-lg > .btn + .dropdown-toggle-split{padding-right:12px;padding-left:12px}
 .btn.disabled,.btn[disabled],.btn:disabled,fieldset[disabled] .btn{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
-.card{margin-bottom:12px;border:1px solid #000}
+.card{margin-bottom:12px;border:1px solid #eee}
 .card-block{padding:20px}
-.card-footer{padding:12px 20px;border-top:1px solid #000;background-color:#F7F7F7}
-.card-header{padding:12px 20px;background-color:#F7F7F7}
+.card-footer{padding:12px 20px;border-top:1px solid #eee;background-color:#F7F7F7}
+.card-header{padding:12px 20px;background-color:#F7F7F7;border-bottom:1px solid #eee}
 .card-header-tabs{margin-right:-10px;margin-bottom:-12px;margin-left:-10px;border-bottom:0}
 .card-header-pills{margin-right:-10px;margin-left:-10px}
 .card-img-overlay{padding:20px}
 .card-subtitle{margin-top:-6px}
-.card-header{background-color:#eee}
 .card-title{margin-bottom:12px}
 .caret{border-top:4px solid}
 .carousel-control-prev,.carousel-control-next{filter:alpha(opacity=50)}
@@ -64,8 +63,8 @@ h6{font-size:16px}
 .custom-control-input{filter:alpha(opacity=0)}
 .custom-controls-stacked .custom-control{margin-bottom:4px}
 .custom-file{height:40px}
-.custom-file-control{height:40px;padding:8px 16px;border:1px solid #000}
-.custom-file-control:before{height:40px;padding:8px 16px;border:1px solid #000}
+.custom-file-control{height:40px;padding:8px 16px;border:1px solid #eee}
+.custom-file-control:before{height:40px;padding:8px 16px;border:1px solid #eee}
 .custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
 .custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none;padding-right:12px}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
@@ -87,14 +86,14 @@ h6{font-size:16px}
 .form-check-inline{padding-left:20px}
 .form-check-input{margin-top:4px;margin-left:-20px}
 .form-check-label{padding-left:20px}
-.form-control{padding:8px 12px;font-size:16px;border:1px solid #000}
+.form-control{padding:8px 12px;font-size:16px;border:1px solid #eee}
 .form-control-feedback{margin-top:4px}
 .form-control-plaintext{padding-top:8px;padding-bottom:8px}
 .form-control-static{padding-top:8px;padding-bottom:8px}
 .form-group{margin-bottom:16px}
 .form-text{margin-top:4px}
 .img-thumbnail{padding:4px}
-.input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #000}
+.input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #eee}
 .input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}
 .invalid-feedback{margin-top:4px;font-size:14px}
 .invalid-tooltip{padding:8px;margin-top:2px;font-size:14px;background-color:#dc3545}
