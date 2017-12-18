@@ -68,7 +68,6 @@ h6{font-size:16px}
 .custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
 .custom-select{padding:6px 28px 6px 12px;border:1px solid #000;background-image:none;padding-right:12px}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
-.disabled{filter:alpha(opacity=65)}
 .display-1{font-size:96px}
 .display-2{font-size:88px}
 .display-3{font-size:72px}
@@ -95,6 +94,7 @@ h6{font-size:16px}
 .form-text{margin-top:4px}
 .img-thumbnail{padding:4px}
 .input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #000}
+.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}
 .invalid-feedback{margin-top:4px;font-size:14px}
 .invalid-tooltip{padding:8px;margin-top:2px;font-size:14px;background-color:#dc3545}
 .jumbotron{padding:32px 16px;margin-bottom:32px}
