@@ -2,7 +2,6 @@
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill HTML5 element support.
 
-
 ### Usage
 
 1. Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
@@ -18,7 +17,6 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 	  <link href="/css/bootstrap-ie8.css" rel="stylesheet">
     <![endif]-->
 ```
-
 
 ### FAQS
 

@@ -8,8 +8,8 @@
 .col-xl-1,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11,.col-xl-12{float:left}
 .row,.container-fluid,.container, section, footer, main, aside{clear:both;display:block;width:100%;height:100%;overflow:hidden}
 
-.modal.fade .modal-dialog {-ms-transform:translate(0, -25%)}
-.modal.show .modal-dialog {-ms-transform:translate(0, 0)}
+.modal.fade .modal-dialog{-ms-transform:translate(0, -25%)}
+.modal.show .modal-dialog{-ms-transform:translate(0, 0)}
 
 .custom-select{background-image:none;padding-right:.75rem}
-.table-responsive{min-height: 0%; // (see https://github.com/twbs/bootstrap/issues/14837)}
+.table-responsive{min-height: 0%} /* see https://github.com/twbs/bootstrap/issues/14837 */
