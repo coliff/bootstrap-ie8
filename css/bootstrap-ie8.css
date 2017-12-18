@@ -104,6 +104,7 @@ h6{font-size:16px}
 .modal-backdrop.fade{filter:alpha(opacity=0)}
 .modal-backdrop.show{filter:alpha(opacity=50)}
 .modal-content{border:1px solid #eee}
+.modal-footer{text-align:right}
 .m-1{margin:16px 16px!important}
 .mt-1{margin-top:16px!important}
 .mr-1{margin-right:16px!important}
