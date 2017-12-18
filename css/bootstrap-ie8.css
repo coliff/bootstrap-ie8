@@ -36,11 +36,11 @@ h6{font-size:16px}
 .btn-lg + .dropdown-toggle-split,.btn-group-lg > .btn + .dropdown-toggle-split{padding-right:12px;padding-left:12px}
 .btn.disabled,.btn[disabled],.btn:disabled,fieldset[disabled] .btn{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
-.card{margin-bottom:12px;border:1px solid #eee}
+.card{margin-bottom:12px;border:1px solid #ddd}
 .card-block{padding:20px}
 .card-body{padding:12px}
-.card-footer{padding:12px 20px;border-top:1px solid #eee;background-color:#F7F7F7}
-.card-header{padding:12px 20px;background-color:#F7F7F7;border-bottom:1px solid #eee}
+.card-footer{padding:12px 20px;border-top:1px solid #ddd;background-color:#F7F7F7}
+.card-header{padding:12px 20px;background-color:#F7F7F7;border-bottom:1px solid #ddd}
 .card-header-tabs{margin-right:-10px;margin-bottom:-12px;margin-left:-10px;border-bottom:0}
 .card-header-pills{margin-right:-10px;margin-left:-10px}
 .card-img-overlay{padding:20px}
@@ -64,10 +64,10 @@ h6{font-size:16px}
 .custom-control-input{filter:alpha(opacity=0)}
 .custom-controls-stacked .custom-control{margin-bottom:4px}
 .custom-file{height:40px}
-.custom-file-control{height:40px;padding:8px 16px;border:1px solid #eee}
-.custom-file-control:before{height:40px;padding:8px 16px;border:1px solid #eee}
+.custom-file-control{height:40px;padding:8px 16px;border:1px solid #ddd}
+.custom-file-control:before{height:40px;padding:8px 16px;border:1px solid #ddd}
 .custom-file-input{min-width:224px;height:40px;filter:alpha(opacity=0)}
-.custom-select{padding:6px 28px 6px 12px;border:1px solid #eee;background-image:none;padding-right:12px}
+.custom-select{padding:6px 28px 6px 12px;border:1px solid #ddd;background-image:none;padding-right:12px}
 .custom-select-sm{padding-top:6px;padding-bottom:6px}
 .display-1{font-size:96px}
 .display-2{font-size:88px}
@@ -77,7 +77,7 @@ h6{font-size:16px}
 .dropdown-divider{margin:8px 0}
 .dropdown-header{font-size:14px;padding:8px 24px}
 .dropdown-item{padding:3px 24px}
-.dropdown-menu{font-size:16px;min-width:160px;padding:8px 0;margin:2px 0 0;border:1px solid #eee}
+.dropdown-menu{font-size:16px;min-width:160px;padding:8px 0;margin:2px 0 0;border:1px solid #ddd}
 .dropdown-toggle:after{margin-right:4px;margin-left:4px}
 .dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-bottom:4px solid}
 .fade.show{filter:alpha(opacity=100)}
@@ -87,24 +87,24 @@ h6{font-size:16px}
 .form-check-inline{padding-left:20px}
 .form-check-input{margin-top:4px;margin-left:-20px}
 .form-check-label{padding-left:20px}
-.form-control{padding:8px 12px;font-size:16px;border:1px solid #eee}
+.form-control{padding:8px 12px;font-size:16px;border:1px solid #ddd}
 .form-control-feedback{margin-top:4px}
 .form-control-plaintext{padding-top:8px;padding-bottom:8px}
 .form-control-static{padding-top:8px;padding-bottom:8px}
 .form-group{margin-bottom:16px}
 .form-text{margin-top:4px}
 .img-thumbnail{padding:4px}
-.input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #eee}
+.input-group-addon{padding:8px 12px;font-size:16px;border:1px solid #ddd}
 .input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}
 .invalid-feedback{margin-top:4px;font-size:14px}
 .invalid-tooltip{padding:8px;margin-top:2px;font-size:14px;background-color:#dc3545}
 .jumbotron{padding:32px 16px;margin-bottom:32px}
 .lead{font-size:20px}
-.list-group-item{padding:12px 20px;border:1px solid #eee}
+.list-group-item{padding:12px 20px;border:1px solid #ddd}
 .list-group-item:last-child{border-bottom-right-radius:4px;border-bottom-left-radius:4px}
 .modal-backdrop.fade{filter:alpha(opacity=0)}
 .modal-backdrop.show{filter:alpha(opacity=50)}
-.modal-content{border:1px solid #eee}
+.modal-content{border:1px solid #ddd}
 .modal-footer{text-align:right}
 .m-1{margin:16px 16px!important}
 .mt-1{margin-top:16px!important}
@@ -164,7 +164,7 @@ h6{font-size:16px}
 .pagination{margin-top:16px;margin-bottom:16px}
 .pagination-lg .page-link{padding:12px 24px;font-size:20px}
 .pagination-sm .page-link{padding:4.4px 12px;font-size:14px}
-.popover{font-size:14px;border:1px solid #eee}
+.popover{font-size:14px;border:1px solid #ddd}
 .popover-header{font-size:16px}
 .progress{height:16px;margin-bottom:16px}
 .rounded-top{border-top-right-radius:4px;border-top-left-radius:4px}
