@@ -20,7 +20,7 @@
     </style>
   </head>
   <body>
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div class="container">
         <a href="../" class="navbar-brand">Bootswatch</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,10 @@
 
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a>
+              <a class="nav-link" href="" target="_blank">Built With Bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">WrapBootstrap</a>
             </li>
           </ul>
 
@@ -64,8 +67,13 @@
       <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Cerulean</h1>
-            <p class="lead"></p>
+            <h1>Default</h1>
+            <p class="lead">Basic Bootstrap</p>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <div class="sponsor">
+           
+            </div>
           </div>
         </div>
       </div>
@@ -408,18 +416,26 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="bs-component">
               <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
               </blockquote>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="bs-component">
-              <blockquote class="blockquote blockquote-reverse">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <blockquote class="blockquote text-center">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <blockquote class="blockquote text-right">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
               </blockquote>
             </div>
@@ -438,54 +454,72 @@
             </div>
 
             <div class="bs-component">
-              <table class="table table-striped table-hover table-bordered">
-                <thead class="thead-dark">
+              <table class="table table-hover">
+                <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Column heading</th>
-                    <th>Column heading</th>
-                    <th>Column heading</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1</td>
+                  <tr class="table-active">
+                    <th scope="row">Active</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <th scope="row">Default</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
-                  <tr class="table-info">
-                    <td>3</td>
+                  <tr class="table-primary">
+                    <th scope="row">Primary</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <th scope="row">Secondary</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
                   <tr class="table-success">
-                    <td>4</td>
+                    <th scope="row">Success</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
                   <tr class="table-danger">
-                    <td>5</td>
+                    <th scope="row">Danger</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
                   <tr class="table-warning">
-                    <td>6</td>
+                    <th scope="row">Warning</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                   </tr>
-                  <tr class="table-active">
-                    <td>7</td>
+                  <tr class="table-info">
+                    <th scope="row">Info</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-light">
+                    <th scope="row">Light</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <th scope="row">Dark</th>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
@@ -514,6 +548,12 @@
               <form>
                 <fieldset>
                   <legend>Legend</legend>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                    </div>
+                  </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -573,12 +613,21 @@
                       </label>
                     </div>
                   </fieldset>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input">
-                      Check me out
-                    </label>
-                  </div>
+                  <fieldset class="form-group">
+                    <legend>Checkboxes</legend>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked>
+                        Option one is this and that&mdash;be sure to include why it's great
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" disabled>
+                        Option two is disabled
+                      </label>
+                    </div>
+                  </fieldset>
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </fieldset>
               </form>
@@ -586,61 +635,109 @@
           </div>
           <div class="col-lg-4 offset-lg-1">
 
-              <form class="bs-component">
+            <form class="bs-component">
+              <div class="form-group">
+                <fieldset disabled>
+                  <label class="control-label" for="disabledInput">Disabled input</label>
+                  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+                </fieldset>
+              </div>
 
+              <div class="form-group">
+                <fieldset>
+                  <label class="control-label" for="readOnlyInput">Readonly input</label>
+                  <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
+                </fieldset>
+              </div>
+
+              <div class="form-group has-success">
+                <label class="form-control-label" for="inputSuccess1">Valid input</label>
+                <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+                <div class="valid-feedback">Success! You've done it.</div>
+              </div>
+
+              <div class="form-group has-danger">
+                <label class="form-control-label" for="inputDanger1">Invalid input</label>
+                <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
+                <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label" for="inputDefault">Default input</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label col-form-label-sm" for="inputSmall">Small input</label>
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" id="inputSmall">
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Input addons</label>
                 <div class="form-group">
-                  <fieldset disabled>
-                    <label class="control-label" for="disabledInput">Disabled input</label>
-                    <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
-                  </fieldset>
-                </div>
-
-                <div class="form-group">
-                  <fieldset>
-                    <label class="control-label" for="readOnlyInput">Readonly input</label>
-                    <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
-                  </fieldset>
-                </div>
-
-                <div class="form-group has-success">
-                  <label class="form-control-label" for="inputSuccess1">Valid input</label>
-                  <input type="text" class="form-control is-valid" id="inputValid">
-                  <div class="form-control-feedback">Success! You've done it.</div>
-                </div>
-
-                <div class="form-group has-danger">
-                  <label class="form-control-label" for="inputDanger1">Invalid input</label>
-                  <input type="text" class="form-control is-invalid" id="inputInvalid">
-                  <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
-                </div>
-
-                <div class="form-group">
-                  <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
-                  <input class="form-control form-control-lg" type="text" id="inputLarge">
-                </div>
-
-                <div class="form-group">
-                  <label class="col-form-label" for="inputDefault">Default input</label>
-                  <input type="text" class="form-control" id="inputDefault">
-                </div>
-
-                <div class="form-group">
-                  <label class="col-form-label col-form-label-sm" for="inputSmall">Small input</label>
-                  <input class="form-control form-control-sm" type="text" id="inputSmall">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label">Input addons</label>
-                  <div class="form-group">
-                    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-                    <div class="input-group">
-                      <div class="input-group-addon">$</div>
-                      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
-                      <div class="input-group-addon">.00</div>
-                    </div>
+                  <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                    <div class="input-group-addon">.00</div>
                   </div>
                 </div>
-              </form>
+              </div>
+            </form>
+
+            <div class="bs-component">
+              <fieldset>
+                <legend>Custom forms</legend>
+                <div class="form-group">
+                  <label class="custom-control custom-radio">
+                    <input id="radio1" name="radio" type="radio" class="custom-control-input" checked>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Toggle this custom radio</span>
+                  </label>
+                  <label class="custom-control custom-radio">
+                    <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Or toggle this other custom radio</span>
+                  </label>
+                  <label class="custom-control custom-radio">
+                    <input id="radio3" name="radio" type="radio" class="custom-control-input" disabled>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Disabled custom radio</span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" checked>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Check this custom checkbox</span>
+                  </label>
+                  <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" disabled>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Disabled custom checkbox</span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <select class="custom-select">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="custom-file">
+                    <input type="file" id="file2" class="custom-file-input">
+                    <span class="custom-file-control"></span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>
 
           </div>
         </div>
@@ -684,7 +781,7 @@
                 </li>
               </ul>
               <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade active in" id="home">
+                <div class="tab-pane fade show active" id="home">
                   <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
                 </div>
                 <div class="tab-pane fade" id="profile">
@@ -727,7 +824,7 @@
             </div>
             <br>
             <div class="bs-component">
-              <ul class="nav nav-pills nav-stacked">
+              <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Active</a>
                 </li>
@@ -875,8 +972,8 @@
             <div class="bs-component">
               <div class="alert alert-dismissible alert-warning">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <h4>Warning!</h4>
-                <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+                <h4 class="alert-heading">Warning!</h4>
+                <p class="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
               </div>
             </div>
           </div>
@@ -1014,9 +1111,13 @@
             </div>
             <div class="bs-component">
               <div class="jumbotron">
-                <h1 class="display-3">Jumbotron</h1>
-                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <p><a class="btn btn-primary btn-lg" href="#">Learn more</a></p>
+                <h1 class="display-3">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
               </div>
             </div>
           </div>
@@ -1033,17 +1134,17 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <ul class="list-group">
-                <li class="list-group-item">
-                  <span class="tag tag-default tag-pill float-xs-right">14</span>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
                   Cras justo odio
+                  <span class="badge badge-primary badge-pill">14</span>
                 </li>
-                <li class="list-group-item">
-                  <span class="tag tag-default tag-pill float-xs-right">2</span>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
                   Dapibus ac facilisis in
+                  <span class="badge badge-primary badge-pill">2</span>
                 </li>
-                <li class="list-group-item">
-                  <span class="tag tag-default tag-pill float-xs-right">1</span>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
                   Morbi leo risus
+                  <span class="badge badge-primary badge-pill">1</span>
                 </li>
               </ul>
             </div>
@@ -1051,7 +1152,7 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <div class="list-group">
-                <a href="#" class="list-group-item  list-group-item-action active">
+                <a href="#" class="list-group-item list-group-item-action active">
                   Cras justo odio
                 </a>
                 <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in
@@ -1064,13 +1165,21 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active">
-                  <h4 class="list-group-item-heading">List group item heading</h4>
-                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small>Donec id elit non mi porta.</small>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <h4 class="list-group-item-heading">List group item heading</h4>
-                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small class="text-muted">Donec id elit non mi porta.</small>
                 </a>
               </div>
             </div>
@@ -1086,120 +1195,120 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="bs-component">
-              <div class="card text-white bg-primary">
+              <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Primary card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-white bg-success">
+              <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Secondary card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-white bg-info">
+              <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Success card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-white bg-warning">
+              <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Danger card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-white bg-danger">
+              <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Warning card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-black bg-light">
+              <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Info card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card text-white bg-dark">
+              <div class="card bg-light mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Light card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h4 class="card-title">Dark card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="bs-component">
-              <div class="card border-primary">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-primary">
+                  <h4 class="card-title">Primary card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-success">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-secondary">
+                  <h4 class="card-title">Secondary card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-info">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-success">
+                  <h4 class="card-title">Success card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-warning">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-danger">
+                  <h4 class="card-title">Danger card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-danger">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-warning mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-warning">
+                  <h4 class="card-title">Warning card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-light">
-                <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+              <div class="card border-info mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-info">
+                  <h4 class="card-title">Info card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card border-dark">
+              <div class="card border-light mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
                 <div class="card-body">
-                  <blockquote class="card-blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
+                  <h4 class="card-title">Light card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card border-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-dark">
+                  <h4 class="card-title">Dark card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
@@ -1207,7 +1316,7 @@
 
           <div class="col-lg-4">
             <div class="bs-component">
-              <div class="card">
+              <div class="card mb-3">
                 <h3 class="card-header">Card header</h3>
                 <div class="card-body">
                   <h5 class="card-title">Special title treatment</h5>
@@ -1216,11 +1325,27 @@
                 <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
                   <a href="#" class="card-link">Card link</a>
                   <a href="#" class="card-link">Another link</a>
                 </div>
                 <div class="card-footer text-muted">
                   2 days ago
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
                 </div>
               </div>
             </div>
@@ -1312,7 +1437,7 @@
               <li class="float-lg-right"><a href="#top">Back to top</a></li>
             </ul>
             <p>Code released under the MIT License.</p>
-            <p>Example page Based on <a href="http://blog.bootswatch.com" rel="nofollow">Bootswatch</a>.</p>
+            <p>Example page Based on Bootswatch.</p>
           </div>
         </div>
       </footer>
