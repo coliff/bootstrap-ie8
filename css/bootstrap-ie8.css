@@ -190,11 +190,13 @@ h6{font-size:16px}
 .progress{height:16px;margin-bottom:16px}
 .progress-bar{float:left;font-size:12px;line-height:20px;width:0}
 
+/** tables **/
 .table th,.table td{padding:12px}
 .table{margin-bottom:16px}
-.table-active>th{background-color:#DADADA}
+.table-active>th,.table-active>td{background-color:#DADADA}
 .table-sm th,.table-sm td{padding:5px}
 .table-responsive{min-height:0%}
+
 .tooltip{font-size:14px;filter:alpha(opacity=0)}
 .tooltip.show{filter:alpha(opacity=90)}
 
