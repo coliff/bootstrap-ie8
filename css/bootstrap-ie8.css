@@ -42,7 +42,8 @@ h6{font-size:16px}
 .btn.disabled,.btn[disabled],.btn:disabled,fieldset[disabled] .btn{filter:alpha(opacity=65)}
 .bs-component > .disabled{filter:alpha(opacity=65)}
 .btn-toolbar{margin-left:-8px}
-.btn-group-vertical > .btn{width:initial;display:block}
+.btn-group-vertical > .btn{display:block}
+.btn-group-vertical  .btn{width:initial}
 
 .card{margin-bottom:12px;border:1px solid #ddd}
 .card-block{padding:20px}
@@ -276,7 +277,7 @@ h6{font-size:16px}
 .col-lg-4{max-width:30.333333%}
 .col-lg-5{max-width:39.666667%}
 .col-lg-6{max-width:47%}
-.col-lg-7{max-width:58.333333%}
+.col-lg-7{max-width:55.333333%}
 .col-lg-8{max-width:66.666667%}
 .col-lg-9{max-width:72%}
 .col-lg-10{max-width:83.333333%}
