@@ -34,11 +34,11 @@ A. Yes, in a future release.
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
-A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e
+A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see [https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e](https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e)
 
 **Q. Will you provide LESS/SASS files?**
 
-A. No. These should be ready to use in production.
+A. Maybe in a future release I'll provide SASS file (with comments) and a minified ready-for-production min.css file.
 
 **Q. Do I need the RespondJS polyfill for IE8 like Bootstrap 3 uses?**
 
