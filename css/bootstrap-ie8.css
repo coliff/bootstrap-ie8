@@ -93,6 +93,7 @@ h6{font-size:16px}
 .form-check-input{margin-top:4px;margin-left:-20px}
 .form-check-label{padding-left:20px}
 .form-control{padding:8px 12px;font-size:16px;border:1px solid #ddd}
+.form-control-lg{padding:8px 16px;font-size:20px}
 .form-group > .is-valid{border-color:#28a745!important}
 .form-group > .is-invalid{border-color:#dc3545!important}
 .form-control-feedback{margin-top:4px}
