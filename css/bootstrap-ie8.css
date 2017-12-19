@@ -1,6 +1,9 @@
 /* Bootstrap 4 for IE8 */
 /** https://github.com/coliff/bootstrap-ie8 */
 
+*{box-sizing:border-box}
+*:before,*:after{box-sizing: border-box}
+
 body{margin-left:auto;margin-right:auto;min-width:998px;font-size:16px}
 h1, h2, h3, h4, h5, h6{margin-bottom:8px}
 p{margin-bottom:16px}
@@ -273,17 +276,17 @@ h6{font-size:16px}
 .container{max-width:960px}
 .col-lg{max-width:100%}
 .col-lg-auto{width:auto;max-width:none}
-.col-lg-1{max-width:6%}
-.col-lg-2{max-width:13%}
+.col-lg-1{max-width:8.3%}
+.col-lg-2{max-width:16%}
 .col-lg-3{max-width:23%}
-.col-lg-4{max-width:27%}
-.col-lg-5{max-width:35%}
-.col-lg-6{max-width:43%}
-.col-lg-7{max-width:54%}
-.col-lg-8{max-width:63%}
-.col-lg-9{max-width:72%}
-.col-lg-10{max-width:80%}
-.col-lg-11{max-width:88%}
+.col-lg-4{max-width:30.33%}
+.col-lg-5{max-width:39%}
+.col-lg-6{max-width:47%}
+.col-lg-7{max-width:58%}
+.col-lg-8{max-width:66%}
+.col-lg-9{max-width:77%}
+.col-lg-10{max-width:83.333333%}
+.col-lg-11{max-width:91%}
 .col-lg-12{max-width:100%}
 .navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}
 .navbar-expand-lg .navbar-nav .dropdown-menu-right{right:0;left:auto}
