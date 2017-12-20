@@ -190,8 +190,9 @@ h6{font-size:16px}
 .pagination-sm .page-link{padding:4.4px 12px;font-size:14px}
 .popover{font-size:14px;border:1px solid #ddd}
 .popover-header{font-size:16px}
+
 .progress{height:16px;margin-bottom:16px}
-.progress-bar{float:left;font-size:12px;line-height:20px;width:0}
+.progress-bar{float:left;font-size:12px;line-height:20px;width:0;text-align:center;height:100%}
 
 /** tables **/
 .table th,.table td{padding:12px}
