@@ -1,19 +1,17 @@
 HEAD
 ---------------
-- Bootstrap 3 grids fallback replacement due to lack of Felxbox support in IE8/IE9.
+- Bootstrap 3 grids fallback replacement due to lack of Flexbox support in IE8/IE9.
+- Breadcrumbs fix (IE8)
+- Border Box on all elements (IE)
+- Form Control Input LG and SM fix (IE8)
+- Form Control Input Invalid and Valid fix (IE8)
+- .table-active fix (IE8)
+- Jumbotron padding fix (IE8)
 
-v4.0.0-alpha.6
----------------
-- Updated with latest change
-
-v4.0.0-alpha.5
----------------
-- Updated with latest changes
-
-v4.0.0-alpha.4
+v4.0.0-beta.2
 ---------------
 - Updated with latest changes
 
-v4.0.0-alpha.3
+v4.0.0-Beta.1
 ---------------
 - Updated with latest changes
