@@ -44,7 +44,12 @@ A. Maybe in a future release I'll provide SASS file (with comments) and a minifi
 
 A. No. Instead the CSS is set to be fixed-width which makes things a lot easier. You don't need to change your HTML markup, the CSS will take care of it as the (min-width:992px) media queries are all set.
 
+**Q. Where can I see a demo?**
+
+A. Right here: [https://coliff.github.io/bootstrap-ie8/test.htm](https://coliff.github.io/bootstrap-ie8/test.htm)
+
 ### Known Issues
 
 - As this is only a CSS stylesheet there are problems with using Bootstrap 4's JavaScript in IE8. An easy workaround is to include a link to the Bootstrap v3 JS file (this fixes the dropdown menus) within the conditional statement. Be sure to use jQuery 1.x too.
 - This is not complete yet.
+- View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
