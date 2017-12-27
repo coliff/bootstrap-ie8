@@ -19,5 +19,9 @@
 
 .collapse{display:inline-block}
 
+.d-flex{display:inline-block}
+.d-inline-flex{display:inline-block}
+.flex-row-reverse{float:right}
+
 /** Carousel - Hide indicators and controls as the carousel doesn't work **/
 .carousel-indicators,.carousel-control-prev,.carousel-control-next{display:none}
