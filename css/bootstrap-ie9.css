@@ -13,3 +13,6 @@
 
 .custom-select{background-image:none;padding-right:.75rem}
 .table-responsive{min-height: 0%} /* see https://github.com/twbs/bootstrap/issues/14837 */
+
+.progress{display:block}
+.progress-bar{float:left;font-size:12px;line-height:20px;width:0;text-align:center;height:100%}
