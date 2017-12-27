@@ -34,6 +34,7 @@ h6{font-size:16px}
 .breadcrumb{padding:12px 16px;margin-bottom:16px}
 .breadcrumb-item{display:inline-block}
 .breadcrumb-item + li:before{padding:0 5px;color:#ccc;content: "/\00a0";}
+.dropdown-toggle:after {content: "▼";}
 
 /** Buttons **/
 .btn{padding:8px 16px;font-size:16px}
