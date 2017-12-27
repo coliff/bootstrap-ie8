@@ -34,7 +34,7 @@
 .justify-content-center{text-align:center}
 .justify-content-center div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center}
 
-.justify-content-between {text-align:justify;text-justify:distribute-all-lines}
+.justify-content-between {text-justify:distribute-all-lines}
 .justify-content-between div {display:inline-block;margin-right:auto;margin-left:auto;text-align:justify}
 
 .justify-content-around {text-align:justify;text-justify:distribute-all-lines} /* see https://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs */
