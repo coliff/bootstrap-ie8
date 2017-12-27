@@ -24,7 +24,7 @@
 .flex-row-reverse{text-align:right}
 .flex-row-reverse .div{float:right}
 
-.justify-content-start{display:inline-block}
+.justify-content-start div{display:inline-block}
 
 .justify-content-end{text-align:right}
 .justify-content-end div {display:inline-block;margin-right:0;float:right}
