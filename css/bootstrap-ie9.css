@@ -22,7 +22,8 @@
 .d-flex{display:block}
 .d-inline-flex{display:inline-block}
 .flex-row-reverse{float:right}
-.justify-content-center > div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center;}
+.justify-content-center > div {margin-right:auto;margin-left:auto;text-align:center;}
+[class^="justify-content-"] > div{display:inline-block}
 
 /** Carousel - Hide indicators and controls as the carousel doesn't work **/
 .carousel-indicators,.carousel-control-prev,.carousel-control-next{display:none}
