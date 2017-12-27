@@ -21,8 +21,11 @@
 
 .d-flex{display:block}
 .d-inline-flex{display:inline-block}
+
+.flex-row .div{display:inline-block}
+
 .flex-row-reverse{text-align:right}
-.flex-row-reverse .div{float:right}
+.flex-row-reverse .div{display:inline-block;float:right}
 
 .justify-content-start div{display:inline-block}
 
