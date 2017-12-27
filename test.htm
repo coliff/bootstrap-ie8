@@ -8,12 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   <!--[if IE]>
-      <link href="css/bootstrap-ie9.css" rel="stylesheet">
-      <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-    <![endif]-->
+			<link href="css/bootstrap-ie9.css" rel="stylesheet">
+			<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+		<![endif]-->
   <!--[if lt IE 9]>
-	  <link href="css/bootstrap-ie8.css" rel="stylesheet">
-    <![endif]-->
+		<link href="css/bootstrap-ie8.css" rel="stylesheet">
+		<![endif]-->
   <style>
     .bs-component .modal {
       position: relative;
@@ -33,6 +33,7 @@
       margin-bottom: 50px
     }
 
+    .example,
     .grid-section .col,
     .grid-section .col-8,
     .grid-section .col-4,
@@ -90,7 +91,7 @@
 
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Test</a>
+            <a class="nav-link" href="#" hidden>Test</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/coliff/bootstrap-ie8">GitHub</a>
@@ -119,7 +120,7 @@
     </div>
 
     <!-- Navbar
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section clearfix" id="navbars">
       <div class="row">
         <div class="col-lg-12">
@@ -153,7 +154,7 @@
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2 placeholder" type="text" placeholder="Search">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search">
                   <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 </form>
               </div>
@@ -186,7 +187,7 @@
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2 placeholder" type="text" placeholder="Search">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search">
                   <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 </form>
               </div>
@@ -219,7 +220,7 @@
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2 placeholder" type="text" placeholder="Search">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search">
                   <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 </form>
               </div>
@@ -232,7 +233,7 @@
 
 
     <!-- Buttons
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="buttons">
       <div class="page-header">
         <div class="row">
@@ -408,7 +409,7 @@
     </div>
 
     <!-- Typography
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="typography">
       <div class="row">
         <div class="col-lg-12">
@@ -510,7 +511,7 @@
     </div>
 
     <!-- Tables
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="tables">
 
       <div class="row">
@@ -599,7 +600,7 @@
     </div>
 
     <!-- Forms
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="forms">
       <div class="row">
         <div class="col-lg-12">
@@ -623,12 +624,12 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control placeholder" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control placeholder" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="form-group">
                   <label for="exampleSelect1">Example select</label>
@@ -702,14 +703,14 @@
             <div class="form-group">
               <fieldset disabled>
                 <label class="control-label" for="disabledInput">Disabled input</label>
-                <input class="form-control placeholder" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
               </fieldset>
             </div>
 
             <div class="form-group">
               <fieldset>
                 <label class="control-label" for="readOnlyInput">Readonly input</label>
-                <input class="form-control placeholder" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
+                <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
               </fieldset>
             </div>
 
@@ -727,7 +728,7 @@
 
             <div class="form-group">
               <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
-              <input class="form-control form-control-lg placeholder" type="text" placeholder=".form-control-lg" id="inputLarge">
+              <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
             </div>
 
             <div class="form-group">
@@ -807,7 +808,7 @@
     </div>
 
     <!-- Navs
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="navs">
 
       <div class="row">
@@ -845,10 +846,10 @@
             </ul>
             <div id="myTabContent" class="tab-content">
               <div class="tab-pane fade show active" id="home">
-                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stump town aliqua, retro synth
                   master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
-                  keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
-                  salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                  keffiyeh dream catcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip place
+                  at salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
               </div>
               <div class="tab-pane fade" id="profile">
                 <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1
@@ -1036,7 +1037,7 @@
     </div>
 
     <!-- Indicators
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="indicators">
 
       <div class="row">
@@ -1116,7 +1117,7 @@
     </div>
 
     <!-- Progress
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="progress">
 
       <div class="row">
@@ -1193,7 +1194,7 @@
     </div>
 
     <!-- Containers
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="containers">
 
       <div class="row">
@@ -1449,7 +1450,7 @@
     </div>
 
     <!-- Dialogs
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="dialogs">
 
       <div class="row">
@@ -1495,7 +1496,7 @@
 
             <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="bottom"
               data-content="Vivamus
-              sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
+							sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
 
             <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="right"
               data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
@@ -1515,7 +1516,7 @@
     </div>
 
     <!-- Grid
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section grid-section" id="grid">
       <div class="row">
         <div class="col-lg-12">
@@ -1571,7 +1572,7 @@
 
 
     <!-- Media object
-      ================================================== -->
+			================================================== -->
     <div class="bs-docs-section" id="media-object">
       <div class="row">
         <div class="col-lg-12">
@@ -1599,101 +1600,130 @@
 
 
     <!-- Carousel
-      ================================================== -->
-      <div class="bs-docs-section" id="carousel">
+			================================================== -->
+    <div class="bs-docs-section" id="carousel">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+
+      <hr>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
     </div>
 
 
-  <hr>
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <!-- Flexbox Fallbacks
+			================================================== -->
+    <div class="bs-docs-section" id="flexbox"></div>
+
+    <div class="d-flex example p-2">I'm a flexbox container!</div>
+
+    <hr>
+
+    <div class="d-inline-flex example p-2">I'm an inline flexbox container!</div>
+
+    <hr>
+
+    <div class="d-flex example flex-row">
+      <div class="p-2 example">Flex item 1</div>
+      <div class="p-2 example">Flex item 2</div>
+      <div class="p-2 example">Flex item 3</div>
+    </div>
+
+    <hr>
+
+    <div class="d-flex example flex-row-reverse">
+      <div class="p-2 example">Flex item 1</div>
+      <div class="p-2 example">Flex item 2</div>
+      <div class="p-2 example">Flex item 3</div>
     </div>
 
   </div>
 
 
-    <div id="source-modal" class="modal fade">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title">Source Code</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          </div>
-          <div class="modal-body">
-            <pre></pre>
-          </div>
+  <div id="source-modal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Source Code</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <pre></pre>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer id="footer">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="list-unstyled">
-            <li class="float-lg-right">
-              <a href="#top">Back to top</a>
-            </li>
-          </ul>
-          <p>Code released under the MIT License.</p>
-          <p>Example page Based on Bootswatch.</p>
-        </div>
+  <footer id="footer">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="list-unstyled">
+          <li class="float-lg-right">
+            <a href="#top">Back to top</a>
+          </li>
+        </ul>
+        <p>Code released under the MIT License.</p>
+        <p>Example page Based on Bootswatch.</p>
       </div>
-    </footer>
+    </div>
+  </footer>
   </div>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 
-
   <!--[if IE]>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>$('input, textarea').placeholder();</script>
-    <![endif]-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>$('input, textarea').placeholder();</script>
+		<![endif]-->
 </body>
 
 </html>
