@@ -24,6 +24,8 @@
 .flex-row-reverse{float:right}
 .justify-content-end div {display:inline-block;margin-right:0;float:right}
 .justify-content-center div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center}
+.justify-content-between div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center}
+.justify-content-around div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center}
 [class^="justify-content-"] div{display:inline-block}
 
 /** Carousel - Hide indicators and controls as the carousel doesn't work **/
