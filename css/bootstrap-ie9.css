@@ -21,7 +21,9 @@
 
 .d-flex{display:block}
 .d-inline-flex{display:inline-block}
-.flex-row-reverse{float:right}
+.flex-row-reverse{text-align:right}
+.flex-row-reverse .div{float:right}
+.justify-content-end{text-align:right}
 .justify-content-end div {display:inline-block;margin-right:0;float:right}
 .justify-content-center{text-align:center}
 .justify-content-center div {display:inline-block;margin-right:auto;margin-left:auto;text-align:center}
