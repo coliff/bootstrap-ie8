@@ -16,3 +16,6 @@
 
 .progress{display:block}
 .progress-bar{float:left;font-size:12px;line-height:20px;width:0;text-align:center;height:100%}
+
+/** Carousel - Hide indicators and controls as the carousel doesn't work **/
+.carousel-indicators,.carousel-control-prev,.carousel-control-next{display:none}
