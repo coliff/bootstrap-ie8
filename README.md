@@ -6,7 +6,7 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 1. Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
 
-2. Add the following conditional statements to the <head> of your page but after the Bootstrap 4 CSS.
+2. Add the following conditional statements to the <head> of your page but after the Bootstrap 4 CSS:
 
 ```html
     <!--[if IE]>
@@ -18,6 +18,7 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <![endif]-->
 ```
 
+
 ### FAQS
 
 **Q. What does this fix/polyfill?**
@@ -28,9 +29,9 @@ A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout 
 
 A. This doesn't include any IE7-specific fixes, but it should make it look more presentable. 
 
-**Q. Will the CSS be hosted on a CDN?**
+**Q. Is the CSS hosted on a CDN?**
 
-A. Yes, in a future release. 
+A. Yes, you can use: https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
