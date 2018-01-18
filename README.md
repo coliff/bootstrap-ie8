@@ -33,7 +33,9 @@ A. This doesn't include any IE7-specific fixes, but it should make it look more 
 
 A. Yes, you can use: https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css.
    Minified versions are available with the direct links:
+   
    https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie8.min.css
+   
    https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie9.min.css
 
 **Q. Why is the JavaScript completely broken on IE8?**
