@@ -1,4 +1,4 @@
-# Bootstrap 4 for IE8 and IE9 (Beta 3)
+# Bootstrap 4 for IE8 and IE9
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill HTML5 element support.
 
@@ -31,7 +31,10 @@ A. This doesn't include any IE7-specific fixes, but it should make it look more 
 
 **Q. Is the CSS hosted on a CDN?**
 
-A. Yes, you can use: https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css
+A. Yes, you can use: https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css.
+   Minified versions are available with the direct links:
+   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie8.min.css
+   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie9.min.css
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
@@ -39,7 +42,7 @@ A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You
 
 **Q. Will you provide LESS/SASS files?**
 
-A. Maybe in a future release I'll provide SASS file (with comments) and a minified ready-for-production min.css file.
+A. Maybe in a future release I'll provide SASS file (with comments).
 
 **Q. Do I need the RespondJS polyfill for IE8 like Bootstrap 3 uses?**
 
@@ -52,5 +55,4 @@ A. Right here: [https://coliff.github.io/bootstrap-ie8/test.htm](https://coliff.
 ### Known Issues
 
 - As this is only a CSS stylesheet there are problems with using Bootstrap 4's JavaScript in IE8. An easy workaround is to include a link to the Bootstrap v3 JS file (this fixes the dropdown menus) within the conditional statement. Be sure to use jQuery 1.x too.
-- This is not complete yet.
 - View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
