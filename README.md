@@ -31,16 +31,15 @@ A. This doesn't include any IE7-specific fixes, but it should make it look more 
 
 **Q. Is the CSS hosted on a CDN?**
 
-A. Yes, you can use: https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css.
-   Minified versions are available with the direct links:
+A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css) minified versions are available with the direct links:
    
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie8.min.css
+   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
    
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8@4.0.0-beta.3/css/bootstrap-ie9.min.css
+   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
-A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see [https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e](https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e)
+A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see [this gist](https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e).
 
 **Q. Will you provide LESS/SASS files?**
 
