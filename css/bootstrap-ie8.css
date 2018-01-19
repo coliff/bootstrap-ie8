@@ -84,7 +84,7 @@ h6,.h6{font-size:16px}
 .container{padding-right:15px;padding-left:15px}
 .custom-control{min-height:24px;padding-left:0;margin-right:16px;margin-left:16px}
 .custom-control-indicator{top:0;width:0;height:0;background-color:transparent}
-.custom-control-input{}
+.custom-control-input{position:relative}
 .custom-controls-stacked .custom-control{margin-bottom:4px}
 .custom-file{height:40px}
 .custom-file-control{height:40px;padding:8px 16px;border:1px solid #ddd}
