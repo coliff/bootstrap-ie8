@@ -1,3 +1,5 @@
+[![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
+
 # Bootstrap 4 for IE8 and IE9
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill HTML5 element support.
@@ -10,11 +12,11 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 ```html
     <!--[if IE]>
-      <link href="/css/bootstrap-ie9.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
     <![endif]-->
     <!--[if lt IE 9]>
-	  <link href="/css/bootstrap-ie8.css" rel="stylesheet">
+	  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
     <![endif]-->
 ```
 
