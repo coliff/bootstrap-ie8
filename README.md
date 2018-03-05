@@ -8,7 +8,7 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 1. Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
 
-2. Add the following conditional statements to the <head> of your page but after the Bootstrap 4 CSS:
+2. Add the following conditional statements to the ```<head>``` of your page but after the Bootstrap 4 CSS:
 
 ```html
     <!--[if IE]>
