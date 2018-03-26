@@ -1,3 +1,5 @@
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-ie8/master/LICENSE)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/coliff)
 [![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
 
 # Bootstrap 4 for IE8 and IE9
