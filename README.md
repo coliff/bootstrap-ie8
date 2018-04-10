@@ -22,7 +22,6 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <![endif]-->
 ```
 
-
 ### FAQS
 
 **Q. What does this fix/polyfill?**
@@ -36,9 +35,9 @@ A. This doesn't include any IE7-specific fixes, but it should make it look more 
 **Q. Is the CSS hosted on a CDN?**
 
 A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css) minified versions are available with the direct links:
-   
+
    https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
-   
+
    https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
 
 **Q. Why is the JavaScript completely broken on IE8?**
@@ -56,6 +55,10 @@ A. No. Instead the CSS is set to be fixed-width which makes things a lot easier.
 **Q. Where can I see a demo?**
 
 A. Right here: [https://coliff.github.io/bootstrap-ie8/test.htm](https://coliff.github.io/bootstrap-ie8/test.htm)
+
+**Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
+
+A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://chrome.google.com/webstore/detail/multi-browser-screenshots/dhaknibfbngnmflbejdkliedmjmbjojk) to see screenshots of any webpage.
 
 ### Known Issues
 
