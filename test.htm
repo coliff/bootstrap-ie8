@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,13 +7,21 @@
   <title>Example</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <!--[if IE]>
+  <!--[if IE 9]>
 			<link href="css/bootstrap-ie9.css" rel="stylesheet">
 			<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 		<![endif]-->
-  <!--[if lt IE 9]>
+  <!--[if IE 8]>
 		<link href="css/bootstrap-ie8.css" rel="stylesheet">
+                <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+                <script src="js/bootstrap-ie8.js"></script>
 		<![endif]-->
+  <!--[if lt IE 8]>
+                <script>
+                   alert('You are using an unsupported browser. Update Internet Explorer to at least version 8');
+                   die();
+                </script>
+                <![endif]-->
   <style>
     .bs-component .modal {
       position: relative;
@@ -1477,7 +1485,9 @@
                     <p>Modal body text goes here.</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal-sm" class="btn btn-primary">Source-sm</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal" class="btn btn-primary">Source</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal-lg" class="btn btn-primary">Source-lg</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
@@ -1787,9 +1797,21 @@
     </div>
 
 
-
-
     <div id="source-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Source Code</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <pre>Some text</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="source-modal-lg" class="modal fade">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
@@ -1797,12 +1819,25 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           </div>
           <div class="modal-body">
-            <pre></pre>
+            <pre>Some text</pre>
           </div>
         </div>
       </div>
     </div>
 
+    <div id="source-modal-sm" class="modal fade">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Source Code</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <pre>Some text</pre>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer id="footer">
       <div class="row">
         <div class="col-lg-12">
@@ -1817,14 +1852,20 @@
       </div>
     </footer>
   </div>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!--<![endif]-->
 
-  <!--[if IE]>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script>$('input, textarea').placeholder();</script>
-		<![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+<!--Disabled because the version of v4-dev loaded
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+-->
+  <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
