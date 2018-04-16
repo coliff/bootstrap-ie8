@@ -623,7 +623,9 @@ h6,.h6{font-size:16px}
 .navbar-expand-lg .navbar-nav .dropdown-menu-right{right:0;left:auto}
 .navbar-expand-lg .navbar-nav .nav-link{padding-right:8px;padding-left:8px}
 .navbar-expand-lg .navbar-toggler{display:none}
+.modal-dialog{max-width:500px;margin:28px auto}
 .modal-lg{max-width:800px}
+.modal-sm{max-width:300px}
 .d-lg-none{display:none!important}
 .d-lg-inline{display:inline!important}
 .d-lg-inline-block{display:inline-block!important}
