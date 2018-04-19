@@ -26,6 +26,7 @@ h3,.h3{font-size:28px}
 h4,.h4{font-size:24px}
 h5,.h5{font-size:20px}
 h6,.h6{font-size:16px}
+button{cursor:pointer}
 
 .alert{margin-bottom:16px;padding:12px}
 .alert-dismissible{padding-right:40px}
