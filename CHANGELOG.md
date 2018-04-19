@@ -1,6 +1,12 @@
+v4.1.1 (Unreleased)
+---------------
+- Add JavaScript for Modals (IE8)
+- Improved modal CSS padding (IE8)
+- Improved alert box close button positioning (IE8)
+
 v4.1.0
 ---------------
-- Add new .text-black-50 and .text-white-50 classes (IE8)
+- Add new `.text-black-50` and `.text-white-50` classes (IE8)
 
 v4.0.0
 ---------------
