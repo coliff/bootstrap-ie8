@@ -26,7 +26,6 @@ h3,.h3{font-size:28px}
 h4,.h4{font-size:24px}
 h5,.h5{font-size:20px}
 h6,.h6{font-size:16px}
-button.close, .btn{cursor:pointer}
 
 .alert{margin-bottom:16px;padding:12px}
 .alert-dismissible{padding-right:40px}
@@ -56,6 +55,7 @@ button.close, .btn{cursor:pointer}
 .btn-toolbar{margin-left:-8px}
 .btn-group-vertical > .btn{display:block}
 .btn-group-vertical  .btn{width:initial}
+button.close, .btn{cursor:pointer}
 
 /* cards */
 .card{margin-bottom:12px;border:1px solid #ddd}
