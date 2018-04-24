@@ -20,10 +20,14 @@ if (!window.Node){
 (function() {
   if (!Object.keys) {
     Object.keys = function(obj) {
+      if (obj !== Object(obj)) {
+        throw new TypeError('Object.keys called on a non-object');
+      }
+
       var keys = [];
 
       for (var i in obj) {
-        if (obj.hasOwnProperty(i)) {
+        if (Object.prototype.hasOwnProperty.call(obj, i)) {
           keys.push(i);
         }
       }
