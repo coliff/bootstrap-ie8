@@ -12,7 +12,6 @@
 		<![endif]-->
   <!--[if lte IE 8]>
 			<link href="css/bootstrap-ie8.css" rel="stylesheet">
-			<script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
 		<![endif]-->
   <style>
     .bs-component .modal {
@@ -1786,8 +1785,11 @@
       </div>
     </div>
 
+
+
+
     <div id="source-modal" class="modal fade">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title">Source Code</h4>
@@ -1825,6 +1827,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+<!--[if IE]>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+    $(function() {
+    $('input, textarea').placeholder();
+    };
+  </script>
+		<![endif]-->
 </body>
 
 </html>
