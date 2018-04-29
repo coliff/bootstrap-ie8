@@ -653,10 +653,26 @@ h6,.h6{font-size:16px}
 .container{max-width:960px}
 .col-lg{max-width:100%}
 .col-lg-auto{width:auto;max-width:none}
-.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}
-.navbar-expand-lg .navbar-nav .dropdown-menu-right{right:0;left:auto}
-.navbar-expand-lg .navbar-nav .nav-link{padding-right:8px;padding-left:8px}
-.navbar-expand-lg .navbar-toggler{display:none}
+.navbar-expand .navbar-nav .dropdown-menu,
+.navbar-expand-xl .navbar-nav .dropdown-menu,
+.navbar-expand-lg .navbar-nav .dropdown-menu,
+.navbar-expand-md .navbar-nav .dropdown-menu,
+.navbar-expand-sm .navbar-nav .dropdown-menu{position:absolute}
+.navbar-expand .navbar-nav .dropdown-menu-right,
+.navbar-expand-xl .navbar-nav .dropdown-menu-right,
+.navbar-expand-lg .navbar-nav .dropdown-menu-right,
+.navbar-expand-md .navbar-nav .dropdown-menu-right,
+.navbar-expand-sm .navbar-nav .dropdown-menu-right{right:0;left:auto}
+.navbar-expand .navbar-nav .nav-link,
+.navbar-expand-xl .navbar-nav .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link,
+.navbar-expand-md .navbar-nav .nav-link,
+.navbar-expand-sm .navbar-nav .nav-link{padding-right:8px;padding-left:8px}
+.navbar-expand .navbar-toggler,
+.navbar-expand-xl .navbar-toggler,
+.navbar-expand-lg .navbar-toggler,
+.navbar-expand-md .navbar-toggler,
+.navbar-expand-sm .navbar-toggler{display:none}
 .modal-dialog{max-width:500px;margin:28px auto}
 .modal-lg{max-width:800px}
 .modal-sm{max-width:300px}
