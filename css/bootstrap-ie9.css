@@ -17,8 +17,6 @@
 .progress{display:block}
 .progress-bar{float:left;font-size:12px;line-height:20px;width:0;text-align:center;height:100%}
 
-.collapse{display:inline-block}
-
 .d-flex,.d-sm-flex,.d-md-flex,.d-lg-flex,.d-xl-flex,.d-print-flex{display:block!important}
 .d-inline-flex,.d-sm-inline-flex,.d-md-inline-flex,.d-lg-inline-flex,.d-xl-inline-flex,.d-print-inline-flex{display:inline-block!important}
 
