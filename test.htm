@@ -8,19 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <!--[if IE 9]>
-			<link href="css/bootstrap-ie9.css" rel="stylesheet">
-		<![endif]-->
-  <!--[if IE 8]>
-			<link href="css/bootstrap-ie8.css" rel="stylesheet">
-			<script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-			<script src="js/bootstrap-ie8.js"></script>
-		<![endif]-->
-  <!--[if lt IE 8]>
-			<script>
-				alert('You are using an unsupported browser. Update Internet Explorer to at least version 8');
-				die();
-			</script>
-		<![endif]-->
+      <link href="css/bootstrap-ie9.css" rel="stylesheet">
+  <![endif]-->
+  <!--[if lt IE 9]>
+      <link href="css/bootstrap-ie8.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+      <script src="js/bootstrap-ie8.js"></script>
+  <![endif]-->
   <style>
     .bs-component .modal {
       position: relative;
@@ -91,6 +85,8 @@
               <a class="dropdown-item" href="#grid">Grid</a>
               <a class="dropdown-item" href="#media-object">Media Object</a>
               <a class="dropdown-item" href="#carousel">Carousel</a>
+              <a class="dropdown-item" href="#flexbox">Flexbox</a>
+              <a class="dropdown-item" href="#embeds">Responsive Embeds</a>
             </div>
           </li>
         </ul>
@@ -1484,9 +1480,9 @@
                     <p>Modal body text goes here.</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" data-toggle="modal" data-target="#source-modal-sm" class="btn btn-primary">Source-sm</button>
-                    <button type="button" data-toggle="modal" data-target="#source-modal" class="btn btn-primary">Source</button>
-                    <button type="button" data-toggle="modal" data-target="#source-modal-lg" class="btn btn-primary">Source-lg</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal-sm" class="btn btn-primary">modal-sm</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal" class="btn btn-primary">modal</button>
+                    <button type="button" data-toggle="modal" data-target="#source-modal-lg" class="btn btn-primary">modal-lg</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
@@ -1496,7 +1492,7 @@
         </div>
         <div class="col-lg-6">
           <h2>Popovers</h2>
-          <div class="bs-component" style="margin-bottom: 3em;">
+          <div class="bs-component mb-5">
             <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="left"
               data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Left</button>
 
@@ -1758,7 +1754,7 @@
     </div>
 
 
-    <div class="bs-docs-section" id="flexbox">
+    <div class="bs-docs-section" id="embeds">
       <div class="row">
         <div class="col-md-6">
           <div class="page-header">
@@ -1801,7 +1797,7 @@
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">Source Code</h4>
+            <h4 class="modal-title">modal-sm</h4>
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           </div>
           <div class="modal-body">
@@ -1815,7 +1811,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">Source Code</h4>
+            <h4 class="modal-title">modal</h4>
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           </div>
           <div class="modal-body">
@@ -1829,7 +1825,7 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title">Source Code</h4>
+            <h4 class="modal-title">modal-lg</h4>
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           </div>
           <div class="modal-body">
@@ -1855,14 +1851,14 @@
   </div>
 
   <!--[if gte IE 9]><!-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <!--<![endif]-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		<![endif]-->
+  <![endif]-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
 </body>
 
