@@ -34,8 +34,8 @@ To fix the dropdown menus and modals you can add the following to the footer:
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
   <![endif]-->
 ```
 
@@ -75,7 +75,7 @@ A. No. Instead the CSS is set to be fixed-width which makes things a lot easier.
 
 **Q. Where can I see a demo?**
 
-A. Right here: [https://coliff.github.io/bootstrap-ie8/test.htm](https://coliff.github.io/bootstrap-ie8/test.htm)
+A. Right here: [http://coliff.github.io/bootstrap-ie8/test.htm](http://coliff.github.io/bootstrap-ie8/test.htm)
 
 **Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
 
