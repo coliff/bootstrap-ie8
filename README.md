@@ -13,14 +13,35 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 2. Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
 
 ```html
-    <!--[if IE]>
+    <!--[if IE 9]>
       <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+    <![endif]-->
+    <!--[if lte IE 8]>
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
     <![endif]-->
-    <!--[if lt IE 9]>
-	  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
-    <![endif]-->
 ```
+
+#### Optional IE8 JavaScript Fix
+
+To fix the dropdown menus and modals you can add the following to the footer:
+
+```html
+  <!--[if gte IE 9]><!-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <!--<![endif]-->
+  <!--[if lte IE 8]>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
+  <![endif]-->
+```
+
+This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
+IE8 will instead load the latest compatible version of jQuery, the unminified Bootstrap JS (the minified version causes an error) and the Bootstrap IE8 fix.
+
 
 ### FAQS
 
@@ -54,7 +75,7 @@ A. No. Instead the CSS is set to be fixed-width which makes things a lot easier.
 
 **Q. Where can I see a demo?**
 
-A. Right here: [https://coliff.github.io/bootstrap-ie8/test.htm](https://coliff.github.io/bootstrap-ie8/test.htm)
+A. Right here: [http://coliff.github.io/bootstrap-ie8/test.htm](http://coliff.github.io/bootstrap-ie8/test.htm)
 
 **Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
 
