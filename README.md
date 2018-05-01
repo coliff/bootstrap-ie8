@@ -13,11 +13,11 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 2. Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
 
 ```html
-    <!--[if IE 9]>
+    <!--[if IE]>
       <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
     <![endif]-->
-    <!--[if lte IE 8]>
+    <!--[if lt IE 9]>
 	  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
     <![endif]-->
 ```
