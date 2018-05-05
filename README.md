@@ -83,5 +83,5 @@ A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://ch
 
 ### Known Issues
 
-- As this is only a CSS stylesheet there are problems with using Bootstrap 4's JavaScript in IE8. An easy workaround is to include a link to the Bootstrap v3 JS file (this fixes the dropdown menus) within the conditional statement. Be sure to use jQuery 1.x too.
+- There are various problems with the use of the JavaScript Bootstrap 4 in IE8. So far dropdowns and modal dialogs have been run.
 - View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
