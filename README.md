@@ -45,7 +45,7 @@ IE8 will instead load the latest compatible version of jQuery, the unminified Bo
 
 **Q. What does this fix/polyfill?**
 
-A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units so all units are specified in pixels. Media Queries are also not supported so IE8 has a fixed-width layout (min-width 998px).
+A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units and media queries. The bootstrap-ie8.js module fixes this.
 
 **Q. What about IE7?**
 
