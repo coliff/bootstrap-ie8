@@ -13,18 +13,17 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 2. Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
 
 ```html
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if IE 9]>
-      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+      <link href="css/bootstrap-ie9.min.css" rel="stylesheet">
     <![endif]-->
     <!--[if lte IE 8]>
-      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+      <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
     <![endif]-->
 ```
 
-#### Optional IE8 JavaScript Fix
-
-To fix the dropdown menus and modals you can add the following to the footer:
+Add the following to the footer:
 
 ```html
   <!--[if gte IE 9]><!-->
