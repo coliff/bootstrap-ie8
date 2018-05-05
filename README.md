@@ -42,6 +42,9 @@ To fix the dropdown menus and modals you can add the following to the footer:
 This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
 IE8 will instead load the latest compatible version of jQuery, the unminified Bootstrap JS (the minified version causes an error) and the Bootstrap IE8 fix.
 
+####  CDN/X-Domain Setup
+
+bootstrap-ie8.js works by requesting a pristine copy of your CSS via AJAX, so if you host your stylesheets on a CDN (or a subdomain), you'll need to set up a local proxy to request the CSS for old IE browsers. Prior versions recommended a deprecated x-domain approach, but a local proxy is preferable (for performance and security reasons) to attempting to work around the cross-domain limitations.
 
 ### FAQS
 
