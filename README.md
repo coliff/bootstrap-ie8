@@ -20,10 +20,11 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <!--[if lte IE 8]>
       <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
     <![endif]-->
 ```
 
-Add the following to the footer:
+If you are using the bootstrap.js code add the following to the footer:
 
 ```html
   <!--[if gte IE 9]><!-->
@@ -33,7 +34,6 @@ Add the following to the footer:
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
   <![endif]-->
 ```
