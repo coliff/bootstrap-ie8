@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-ie8",
+  "version": "4.1.1",
+  "description": "Bootstrap 4 for IE8 and IE9",
+  "main": "css/bootstrap-ie8.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/bootstrap-ie8.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "ie",
+    "polyfill"
+  ],
+  "author": "Christian Oliff <christianoliff@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coliff/bootstrap-ie8/issues"
+  },
+  "homepage": "https://github.com/coliff/bootstrap-ie8#readme"
+}
