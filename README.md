@@ -16,6 +16,7 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if IE 9]>
       <link href="css/bootstrap-ie9.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.js"></script>
     <![endif]-->
     <!--[if lte IE 8]>
       <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
