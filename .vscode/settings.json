@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "css.lint.importStatement": "error",
+  "css.lint.propertyIgnoredDueToDisplay": "ignore",
+  "css.lint.unknownProperties": "ignore",
+  "css.lint.vendorPrefix": "ignore",
+  "css.lint.zeroUnits": "error",
+  "html.suggest.angular1": false,
+  "html.suggest.ionic": false,
+  "php.suggest.basic": false
+}
