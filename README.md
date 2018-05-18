@@ -10,9 +10,9 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 ### Usage
 
-1. Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
+1.  Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
 
-2. Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
+2.  Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
 
 ```html
     <!--[if IE 9]>
@@ -44,7 +44,6 @@ To fix the dropdown menus and modals you can add the following to the footer:
 This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
 IE8 will instead load the latest compatible version of jQuery, the unminified Bootstrap JS (the minified version causes an error) and the Bootstrap IE8 fix.
 
-
 ### FAQS
 
 **Q. What does this fix/polyfill?**
@@ -53,15 +52,15 @@ A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout 
 
 **Q. What about IE7?**
 
-A. This doesn't include any IE7-specific fixes, but it should make it look more presentable. 
+A. This doesn't include any IE7-specific fixes, but it should make it look more presentable.
 
 **Q. Is the CSS hosted on a CDN?**
 
 A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css) minified versions are available with the direct links:
 
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
+* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
 
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
+* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
@@ -85,5 +84,4 @@ A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://ch
 
 ### Known Issues
 
-- As this is only a CSS stylesheet there are problems with using Bootstrap 4's JavaScript in IE8. An easy workaround is to include a link to the Bootstrap v3 JS file (this fixes the dropdown menus) within the conditional statement. Be sure to use jQuery 1.x too.
-- View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
+* View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
