@@ -86,6 +86,9 @@ aside,
   background-image: none;
   padding-right: .75rem;
 }
+.img-fluid[src$=".svg"] {
+  width: 100%;
+}
 .table-responsive {
   min-height: 0%;
 } /* see https://github.com/twbs/bootstrap/issues/14837 */
