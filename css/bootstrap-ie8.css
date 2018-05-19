@@ -534,7 +534,7 @@ fieldset[disabled] .btn {
 .custom-select.is-invalid ~ .invalid-feedback,
 .form-control-file.is-invalid ~ .invalid-feedback,
 .form-check-input.is-invalid ~ .invalid-feedback,
-.custom-file-input.is-invalid ~ .invalid-feedback{
+.custom-file-input.is-invalid ~ .invalid-feedback {
   display: block;
 }
 .form-control-feedback {
