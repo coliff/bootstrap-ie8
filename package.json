@@ -15,6 +15,9 @@
     "ie",
     "polyfill"
   ],
+  "browserslist": [
+    "IE 8-9"
+  ],
   "author": "Christian Oliff <christianoliff@yahoo.com>",
   "license": "MIT",
   "bugs": {
