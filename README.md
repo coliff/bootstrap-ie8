@@ -2,6 +2,7 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/coliff)
 [![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie8.svg)](https://www.npmjs.com/package/bootstrap-ie8)
 [![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 # Bootstrap 4 for IE8 and IE9
 
@@ -9,7 +10,7 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 ### Usage
 
-1. Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
+1.  Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
 
 2. Add the following conditional statements to the `<head>`:
 
@@ -51,15 +52,15 @@ A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout 
 
 **Q. What about IE7?**
 
-A. This doesn't include any IE7-specific fixes, but it should make it look more presentable. 
+A. This doesn't include any IE7-specific fixes, but it should make it look more presentable.
 
 **Q. Is the CSS hosted on a CDN?**
 
 A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css) minified versions are available with the direct links:
 
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
+* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
 
-   https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
+* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
 
    Caution! bootstrap-ie8.js works by requesting a pristine copy of your CSS via AJAX, so if you host your stylesheets on a CDN (or a subdomain), you'll need to set up a local proxy to request the CSS for old IE browsers. Prior versions recommended a deprecated x-domain approach, but a local proxy is preferable (for performance and security reasons) to attempting to work around the cross-domain limitations.
 
