@@ -12,21 +12,22 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 1.  Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
 
-2.  Add the following conditional statements to the `<head>` of your page but after the Bootstrap 4 CSS:
+2. Add the following conditional statements to the `<head>`:
 
 ```html
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if IE 9]>
-      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+      <link href="css/bootstrap-ie9.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.js"></script>
     <![endif]-->
     <!--[if lte IE 8]>
-      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+      <link href="css/bootstrap-ie8.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+      <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
     <![endif]-->
 ```
 
-#### Optional IE8 JavaScript Fix
-
-To fix the dropdown menus and modals you can add the following to the footer:
+If you are using the bootstrap.js code add the following to the footer:
 
 ```html
   <!--[if gte IE 9]><!-->
@@ -36,7 +37,6 @@ To fix the dropdown menus and modals you can add the following to the footer:
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
   <![endif]-->
 ```
@@ -48,7 +48,7 @@ IE8 will instead load the latest compatible version of jQuery, the unminified Bo
 
 **Q. What does this fix/polyfill?**
 
-A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units so all units are specified in pixels. Media Queries are also not supported so IE8 has a fixed-width layout (min-width 998px).
+A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units and media queries. The bootstrap-ie8.js module fixes this.
 
 **Q. What about IE7?**
 
@@ -61,6 +61,8 @@ A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstra
 * https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
 
 * https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
+
+   Caution! bootstrap-ie8.js works by requesting a pristine copy of your CSS via AJAX, so if you host your stylesheets on a CDN (or a subdomain), you'll need to set up a local proxy to request the CSS for old IE browsers. Prior versions recommended a deprecated x-domain approach, but a local proxy is preferable (for performance and security reasons) to attempting to work around the cross-domain limitations.
 
 **Q. Why is the JavaScript completely broken on IE8?**
 
@@ -84,4 +86,5 @@ A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://ch
 
 ### Known Issues
 
-* View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
+- There are various problems with the use of the JavaScript Bootstrap 4 in IE8. So far dropdowns and modal dialogs have been run.
+- View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
