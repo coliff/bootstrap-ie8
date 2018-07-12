@@ -1,4 +1,4 @@
-/* Bootstrap 4 for IE9 - v4.1.1            */
+/* Bootstrap 4 for IE9 - v4.1.2            */
 /* https://github.com/coliff/bootstrap-ie8 */
 
 .card-group .card,
@@ -226,4 +226,28 @@ aside,
 .navbar:not(.navbar-expand-sm):not(.navbar-expand-md):not(.navbar-expand-lg):not(.navbar-expand-xl):not(.navbar-expand)
   .nav-link {
   float: none;
+}
+.form-group > .is-valid {
+  border-color: #28a745 !important;
+}
+.form-group > .is-invalid {
+  border-color: #dc3545 !important;
+}
+.form-control.is-valid ~ .valid-feedback,
+.custom-select.is-valid ~ .valid-feedback,
+.form-control-file.is-valid ~ .valid-feedback,
+.form-check-input.is-valid ~ .valid-feedback,
+.custom-control-input.is-valid ~ .valid-feedback,
+.form-control.is-invalid ~ .invalid-feedback,
+.custom-select.is-invalid ~ .invalid-feedback,
+.form-control-file.is-invalid ~ .invalid-feedback,
+.form-check-input.is-invalid ~ .invalid-feedback,
+.custom-file-input.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+.form-group > .is-valid:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+.form-group > .is-invalid:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }

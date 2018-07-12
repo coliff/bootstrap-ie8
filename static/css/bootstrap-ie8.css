@@ -1,4 +1,4 @@
-/* Bootstrap 4 for IE8 - v4.1.1            */
+/* Bootstrap 4 for IE8 - v4.1.2            */
 /* https://github.com/coliff/bootstrap-ie8 */
 
 * {
@@ -524,6 +524,18 @@ fieldset[disabled] .btn {
 }
 .form-group > .is-invalid {
   border-color: #dc3545 !important;
+}
+.form-control.is-valid ~ .valid-feedback,
+.custom-select.is-valid ~ .valid-feedback,
+.form-control-file.is-valid ~ .valid-feedback,
+.form-check-input.is-valid ~ .valid-feedback,
+.custom-control-input.is-valid ~ .valid-feedback,
+.form-control.is-invalid ~ .invalid-feedback,
+.custom-select.is-invalid ~ .invalid-feedback,
+.form-control-file.is-invalid ~ .invalid-feedback,
+.form-check-input.is-invalid ~ .invalid-feedback,
+.custom-file-input.is-invalid ~ .invalid-feedback {
+  display: block;
 }
 .form-control-feedback {
   margin-top: 4px;
