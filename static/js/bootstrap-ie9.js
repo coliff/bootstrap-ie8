@@ -1,17 +1,6 @@
 /* Bootstrap 4 for IE9 - v4.1.2            */
 /* https://github.com/coliff/bootstrap-ie8 */
 
-/**
- * Modified code based on remPolyfill.js (c) Nicolas Bouvrette https://github.com/nbouvrette/remPolyfill
- *
- * Customizations:
- *
- * 1) Added new method `addCallBackWhenReady` to perform callbacks once the polyfill has been applied (especially useful for
- *    onload scrolling events.
- * 2) Added REM support.
- *
- **/
-
 // adds classList support (as Array) to Element.prototype for IE8-9
 (function() {
   Object.defineProperty(Element.prototype, 'classList', {
