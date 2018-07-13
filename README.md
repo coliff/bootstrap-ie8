@@ -32,12 +32,12 @@ To fix the dropdown menus and modals you can add the following to the footer:
   <!--[if gte IE 9]><!-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
   <!--<![endif]-->
   <!--[if lte IE 8]>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.js"></script>
   <![endif]-->
 ```
 
@@ -50,21 +50,13 @@ IE8 will instead load the latest compatible version of jQuery, the unminified Bo
 
 A. Internet Explorer 9 doesn't support flexbox so there is a float-based layout fallback and a couple of other minor fixes. Internet Explorer 8 doesn't support rem units so all units are specified in pixels. Media Queries are also not supported so IE8 has a fixed-width layout (min-width 998px).
 
-**Q. What about IE7?**
-
-A. This doesn't include any IE7-specific fixes, but it should make it look more presentable.
-
 **Q. Is the CSS hosted on a CDN?**
 
 A. Yes, thanks to [JSDelivr](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8?path=css) minified versions are available with the direct links:
 
-* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
+- https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css
 
-* https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
-
-**Q. Why is the JavaScript completely broken on IE8?**
-
-A. jQuery 3.x doesn't work with IE8 at all - you'll need to load jQuery 1.x. You can do this using conditional comments if you like - see [this gist](https://gist.github.com/coliff/6012c1dcc5a7c86878b4ce333823527e).
+- https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css
 
 **Q. Will you provide LESS/SASS files?**
 
@@ -84,4 +76,4 @@ A. You could use my free [Multi-Browser Screenshots Chrome Extension](https://ch
 
 ### Known Issues
 
-* View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
+- View a list of known issues at [https://github.com/coliff/bootstrap-ie8/issues](https://github.com/coliff/bootstrap-ie8/issues)
