@@ -24,7 +24,6 @@
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "never",
     "no-descending-specificity": null,
-    "number-leading-zero": "never",
     "media-feature-name-no-unknown": [true, {
       "ignoreMediaFeatureNames": ["prefers-reduced-motion"]
     }],
