@@ -333,18 +333,11 @@ fieldset[disabled] .btn {
 .caret {
   border-top: 4px solid;
 }
+/** Carousel - Hide indicators and controls as the carousel doesn't work **/
+.carousel-indicators,
 .carousel-control-prev,
 .carousel-control-next {
-  filter: alpha(opacity=50);
-}
-.carousel-control-prev:focus,
-.carousel-control-prev:hover,
-.carousel-control-next:focus,
-.carousel-control-next:hover {
-  filter: alpha(opacity=90);
-}
-.carousel-indicators li {
-  background-color: #fff;
+  display: none;
 }
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"],
