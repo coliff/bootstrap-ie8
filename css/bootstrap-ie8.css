@@ -874,14 +874,22 @@ fieldset[disabled] .btn {
 }
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: #ddd;
+  color: #bbb;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #eee;
+  color: #ddd;
 }
 .navbar-dark .active .nav-link {
   color: #fff;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #555;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #111;
+}
+
 .navbar-divider {
   padding-top: 6.8px;
   padding-bottom: 6.8px;
@@ -929,7 +937,6 @@ fieldset[disabled] .btn {
   padding: 4.4px 12px;
   font-size: 14px;
 }
-
 
 .popover {
   font-size: 14px;
