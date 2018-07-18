@@ -14,6 +14,7 @@
     "declaration-empty-line-before": null,
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
+    "function-blacklist": ["linear-gradient"],
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "length-zero-no-unit": true,
@@ -27,6 +28,7 @@
     "media-feature-name-no-unknown": [true, {
       "ignoreMediaFeatureNames": ["prefers-reduced-motion"]
     }],
+    "property-blacklist": ["align-self", "flex", "flex-wrap", "order"],
     "rule-empty-line-before": null,
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always",
