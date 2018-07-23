@@ -48,6 +48,13 @@ This will load jQuery, PopperJS and Bootstrap as normal on all browsers other th
 IE9 will load the `bootstrap-ie9.js` script.
 IE8 will load the latest compatible version of jQuery, the unminified Bootstrap JS (the minified version causes an error) and the `bootstrap-ie8.js` fix.
 
+#### Install via NPM
+
+Prefer to install via [NPM](https://www.npmjs.com/package/bootstrap-ie8)? No problem...
+
+`npm install bootstrap-ie8`
+
+
 ### FAQS
 
 **Q. What does this fix/polyfill?**
