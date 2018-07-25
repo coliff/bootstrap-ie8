@@ -35,6 +35,7 @@
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-after": "always-single-line",
     "selector-list-comma-space-before": "never-single-line",
+    "selector-pseudo-class-blacklist": ["valid", "invalid", "required"],
     "selector-max-attribute": 2,
     "selector-max-class": 4,
     "selector-max-combinators": 4,
