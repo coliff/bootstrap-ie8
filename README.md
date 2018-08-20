@@ -2,6 +2,7 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/coliff)
 [![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie8.svg)](https://www.npmjs.com/package/bootstrap-ie8)
 [![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
+[![github-stars-image](https://img.shields.io/github/stars/coliff/bootstrap-ie8.svg?label=github%20stars)](https://github.com/coliff/bootstrap-ie8)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 # Bootstrap 4 for IE8 and IE9
