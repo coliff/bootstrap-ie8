@@ -1073,6 +1073,50 @@ fieldset[disabled] .btn {
   width: 100%;
 }
 
+.col-md-1 {
+  max-width: 8.333333% !important;
+}
+
+.col-md-2 {
+  max-width: 16.666667% !important;
+}
+
+.col-md-3 {
+  max-width: 25% !important;
+}
+
+.col-md-4 {
+  max-width: 33.333333% !important;
+}
+
+.col-md-5 {
+  max-width: 41.666667% !important;
+}
+
+.col-md-6 {
+  max-width: 50% !important;
+}
+
+.col-md-7 {
+  max-width: 58.333333% !important;
+}
+
+.col-md-8 {
+  max-width: 66.666667% !important;
+}
+
+.col-md-9 {
+  max-width: 75% !important;
+}
+
+.col-md-10 {
+  max-width: 83.333333% !important;
+}
+
+.col-md-11 {
+  max-width: 91.666667% !important;
+}
+
 /** embed responsive **/
 .embed-responsive:before {
   display: block;
