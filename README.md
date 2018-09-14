@@ -9,6 +9,15 @@
 
 Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back by simply adding a conditional statement targeting IE 8 and 9 with a CSS file and a CDN-hosted JavaScript file to polyfill HTML5 element support.
 
+### Quick start
+
+Several quick start options are available:
+
+- [Download the latest release](https://github.com/coliff/bootstrap-ie8/archive/v4.1.3.zip)
+- Clone the repo `git clone https://github.com/coliff/bootstrap-ie8.git`
+- Install with [npm](https://www.npmjs.com/package/bootstrap-ie8) `npm install bootstrap-ie8`
+- Install with [Composer](https://getcomposer.org/) `composer require coliff/bootstrap-ie8:4.1.3`
+
 ### Usage
 
 1.  Add `<meta http-equiv="x-ua-compatible" content="ie=edge">` to the top of the <head> of your page
@@ -48,13 +57,6 @@ To fix the dropdown menus and modals you can add the following to the footer:
 This will load jQuery, PopperJS and Bootstrap as normal on all browsers other than IE8.
 IE9 will load the `bootstrap-ie9.js` script.
 IE8 will load the latest compatible version of jQuery, the unminified Bootstrap JS (the minified version causes an error) and the `bootstrap-ie8.js` fix.
-
-#### Install via NPM
-
-Prefer to install via [NPM](https://www.npmjs.com/package/bootstrap-ie8)? No problem...
-
-`npm install bootstrap-ie8`
-
 
 ### FAQS
 
