@@ -16,7 +16,7 @@ Several quick start options are available:
 - [Download the latest release](https://github.com/coliff/bootstrap-ie8/archive/v4.1.3.zip)
 - Clone the repo `git clone https://github.com/coliff/bootstrap-ie8.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-ie8) `npm install bootstrap-ie8`
-- Install wuth [yarn](https://yarnpkg.com/en/package/bootstrap-ie8) `yarn add bootstrap-ie8`
+- Install with [yarn](https://yarnpkg.com/en/package/bootstrap-ie8) `yarn add bootstrap-ie8`
 - Install with [Composer](https://getcomposer.org/) `composer require coliff/bootstrap-ie8:4.1.3`
 
 ### Usage
