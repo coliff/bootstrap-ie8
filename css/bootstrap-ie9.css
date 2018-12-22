@@ -251,3 +251,6 @@ aside,
 .form-group > .is-invalid:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
+.custom-switch .custom-control-input:checked ~ .custom-control-label:after {
+  -ms-transform: translateX(0.75rem);
+}
