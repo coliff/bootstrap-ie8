@@ -27,16 +27,10 @@ Several quick start options are available:
 
 ```html
 <!--[if IE 9]>
-  <link
-    href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
 <![endif]-->
 <!--[if lte IE 8]>
-  <link
-    href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
 <![endif]-->
 ```
