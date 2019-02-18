@@ -13,11 +13,11 @@ Bootstrap 4 drops support for Internet Explorer 8 and 9, but you can add it back
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/coliff/bootstrap-ie8/archive/v4.2.1.zip)
+- [Download the latest release](https://github.com/coliff/bootstrap-ie8/archive/v4.3.1.zip)
 - Clone the repo `git clone https://github.com/coliff/bootstrap-ie8.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-ie8) `npm install bootstrap-ie8`
 - Install with [yarn](https://yarnpkg.com/en/package/bootstrap-ie8) `yarn add bootstrap-ie8`
-- Install with [Composer](https://getcomposer.org/) `composer require coliff/bootstrap-ie8:4.2.1`
+- Install with [Composer](https://getcomposer.org/) `composer require coliff/bootstrap-ie8:4.3.1`
 
 ### Usage
 
