@@ -1,4 +1,4 @@
-/* Bootstrap 4 for IE9 - v4.2.1            */
+/* Bootstrap 4 for IE9 - v4.3.1            */
 /* https://github.com/coliff/bootstrap-ie8 */
 
 // adds classList support (as Array) to Element.prototype for IE8-9
