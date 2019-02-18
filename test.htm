@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Example</title>
+  <title>Bootstrap for IE8 and IE9 Test Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <!--[if IE 9]>
+
       <link href="css/bootstrap-ie9.css" rel="stylesheet">
-  <![endif]-->
+  <!--[if IE 9]><![endif]-->
   <!--[if lt IE 9]>
       <link href="css/bootstrap-ie8.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
@@ -50,16 +50,13 @@
 <body>
   <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class="container">
-      <a href="../" class="navbar-brand">Test</a>
+      <a href="../" class="navbar-brand">Bootstrap for IE8 and IE9 Test Page</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
-          <li class="nav-item" hidden>
-            <a class="nav-link" href="#">Test</a>
-          </li>
           <li class="nav-item" hidden>
             <a class="nav-link" href="#">Test</a>
           </li>
@@ -93,36 +90,24 @@
 
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#" hidden>Test</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="https://github.com/coliff/bootstrap-ie8">GitHub</a>
           </li>
         </ul>
-
       </div>
     </div>
   </div>
 
-
   <div class="container">
-
-    <div class="page-header" id="banner">
+    <div class="page-header">
       <div class="row">
-        <div class="col-lg-8 col-md-7 col-sm-6">
-          <h1>Default</h1>
-          <p class="lead">Basic Bootstrap</p>
-        </div>
-        <div class="col-lg-4 col-md-5 col-sm-6">
-          <div class="sponsor">
-
-          </div>
+        <div class="col-sm-12 mt-5">
+          <p class="lead mt-5">This page is for testing how CSS and JS works with IE8 and IE9</p>
         </div>
       </div>
     </div>
 
     <!-- Navbar
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section clearfix" id="navbars">
       <div class="row">
         <div class="col-lg-12">
@@ -235,7 +220,7 @@
 
 
     <!-- Buttons
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="buttons">
       <div class="page-header">
         <div class="row">
@@ -411,7 +396,7 @@
     </div>
 
     <!-- Typography
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="typography">
       <div class="row">
         <div class="col-lg-12">
@@ -455,9 +440,9 @@
             <p>An abbreviation of the word attribute is
               <abbr title="attribute">attr</abbr>.</p>
             <p class="text-black-50">This is text-black-50</p>
-            <span class="bg-dark">
+            <div class="bg-dark">
               <p class="text-white-50">This is text-white-50</p>
-            </span>
+            </div>
           </div>
 
         </div>
@@ -517,7 +502,7 @@
     </div>
 
     <!-- Tables
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="tables">
 
       <div class="row">
@@ -606,7 +591,7 @@
     </div>
 
     <!-- Forms
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="forms">
       <div class="row">
         <div class="col-lg-12">
@@ -822,7 +807,7 @@
     </div>
 
     <!-- Navs
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="navs">
 
       <div class="row">
@@ -1051,7 +1036,7 @@
     </div>
 
     <!-- Indicators
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="indicators">
 
       <div class="row">
@@ -1131,7 +1116,7 @@
     </div>
 
     <!-- Progress
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="progress">
 
       <div class="row">
@@ -1208,7 +1193,7 @@
     </div>
 
     <!-- Containers
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="containers">
 
       <div class="row">
@@ -1293,8 +1278,17 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+          </ul>
+        </div>
+      </div>
 
-      <div class="row" id="cards">
+      <div class="row mt-5" id="cards">
         <div class="col-lg-12">
           <h2>Cards</h2>
         </div>
@@ -1464,7 +1458,7 @@
     </div>
 
     <!-- Dialogs
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="dialogs">
 
       <div class="row">
@@ -1513,7 +1507,7 @@
 
             <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="bottom"
               data-content="Vivamus
-							sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
+              sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
 
             <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="right"
               data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
@@ -1533,7 +1527,7 @@
     </div>
 
     <!-- Grid
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section grid-section" id="grid">
       <div class="row">
         <div class="col-lg-12">
@@ -1597,7 +1591,7 @@
 
 
     <!-- Media object
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="media-object">
       <div class="row">
         <div class="col-lg-12">
@@ -1625,7 +1619,7 @@
 
 
     <!-- Carousel
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="carousel">
       <div class="row">
         <div class="col-lg-12">
@@ -1691,7 +1685,7 @@
 
 
     <!-- Flexbox Fallbacks
-			================================================== -->
+      ================================================== -->
     <div class="bs-docs-section" id="flexbox">
       <div class="row">
         <div class="col-lg-12">

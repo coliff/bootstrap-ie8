@@ -1,4 +1,4 @@
-/*! Bootstrap 4 for IE8 - v4.2.1            */
+/*! Bootstrap 4 for IE8 - v4.3.1            */
 /*! https://github.com/coliff/bootstrap-ie8 */
 
 .card-group .card,
@@ -62,7 +62,9 @@
 .col-xl-10,
 .col-xl-11,
 .col-xl-12,
-.nav-link {
+.nav-link,
+.list-group-horizontal,
+.list-group-horizontal .list-group-item {
   float: left;
 }
 .row,
@@ -76,6 +78,7 @@ aside,
 .navbar-collapse {
   display: block;
 }
+
 .modal.fade .modal-dialog {
   -ms-transform: translate(0, -25%);
 }
