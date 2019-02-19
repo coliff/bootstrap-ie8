@@ -962,10 +962,6 @@ fieldset[disabled] .btn {
   height: 100%;
 }
 
-.progress-bar-striped {
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#00ffffff',GradientType=1 );
-}
-
 /** tables **/
 .table {
   margin-bottom: 16px;
