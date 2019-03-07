@@ -28,7 +28,8 @@
       "no-descending-specificity": null,
       "media-feature-name-no-unknown":
         [true, { "ignoreMediaFeatureNames": ["prefers-reduced-motion"] }],
-      "property-blacklist": ["align-self", "flex", "flex-wrap", "order"],
+      "property-blacklist":
+        ["align-self", "flex", "flex-flow", "flex-wrap", "order"],
       "rule-empty-line-before": null,
       "selector-attribute-quotes": "always",
       "selector-class-pattern": "^[a-z][a-z0-9\\-]*[a-z0-9]$",
