@@ -86,7 +86,7 @@ A. Right here: [http://coliff.github.io/bootstrap-ie8/test.htm](http://coliff.gi
 
 **Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
 
-A. You can use free [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) from Microsoft.
+A. You can use free [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) from Microsoft or use [Browserstack](https://www.browserstack.com/).
 
 ### Known Issues
 
