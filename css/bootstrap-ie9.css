@@ -72,6 +72,7 @@ aside,
 .navbar-nav,
 .navbar-collapse {
   display: block;
+  clear: both;
 }
 
 .modal.fade .modal-dialog {
