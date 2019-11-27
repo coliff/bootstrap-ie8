@@ -1,7 +1,3 @@
 {
-  "recommendations": [
-    "EditorConfig.EditorConfig",
-    "shinnn.stylelint",
-    "esbenp.prettier-vscode"
-  ]
+  "recommendations": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode"]
 }
