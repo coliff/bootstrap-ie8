@@ -1,5 +1,4 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-ie8/master/LICENSE)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/coliff)
 [![NPM Downloads](https://img.shields.io/npm/dt/bootstrap-ie8.svg)](https://www.npmjs.com/package/bootstrap-ie8)
 [![](https://data.jsdelivr.com/v1/package/gh/coliff/bootstrap-ie8/badge)](https://www.jsdelivr.com/package/gh/coliff/bootstrap-ie8)
 [![github-stars-image](https://img.shields.io/github/stars/coliff/bootstrap-ie8.svg?label=github%20stars)](https://github.com/coliff/bootstrap-ie8)
@@ -83,10 +82,6 @@ A. No. Instead the CSS is set to be fixed-width which makes things a lot easier.
 **Q. Where can I see a demo?**
 
 A. Right here: [http://coliff.github.io/bootstrap-ie8/test.htm](http://coliff.github.io/bootstrap-ie8/test.htm)
-
-**Q. I don't have access to IE8/IE9 browser to test- how can I see how my site appears?**
-
-A. You can use free [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) from Microsoft or use [Browserstack](https://www.browserstack.com/).
 
 ### Known Issues
 
