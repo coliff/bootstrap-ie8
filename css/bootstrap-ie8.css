@@ -1,4 +1,4 @@
-/*! Bootstrap 4 for IE8 - v4.3.1             */
+/*! Bootstrap 4 for IE8 - v4.5.0             */
 /*! https://github.com/coliff/bootstrap-ie8/ */
 
 * {
@@ -1204,6 +1204,10 @@ fieldset[disabled] .btn {
 .row,
 .container-fluid,
 .container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
 section,
 footer,
 aside {

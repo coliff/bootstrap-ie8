@@ -1,6 +1,7 @@
-/*! Bootstrap 4 for IE8 - v4.3.1            */
-/*! https://github.com/coliff/bootstrap-ie8 */
+/*! Bootstrap 4 for IE8 - v4.5.0             */
+/*! https://github.com/coliff/bootstrap-ie8/ */
 
+.card-deck .card,
 .card-group .card,
 .col-1,
 .col-2,
@@ -65,6 +66,10 @@
 .row,
 .container-fluid,
 .container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
 section,
 footer,
 main,
