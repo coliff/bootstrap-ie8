@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-ie8",
-  "version": "4.3.1",
+  "version": "4.5.0",
   "description": "Bootstrap 4 for IE8 and IE9",
   "keywords": [
     "bootstrap",
@@ -19,9 +19,12 @@
   "author": "Christian Oliff <christianoliff@yahoo.com>",
   "main": "css/bootstrap-ie8.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "stylelint \"css/*.css\""
   },
   "browserslist": [
     "IE 8-9"
-  ]
+  ],
+  "devDependencies": {
+    "stylelint": "^13.6.1"
+  }
 }

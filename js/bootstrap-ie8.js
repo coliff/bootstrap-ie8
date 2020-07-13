@@ -1,5 +1,5 @@
-/* Bootstrap 4 for IE8 - v4.3.1            */
-/* https://github.com/coliff/bootstrap-ie8 */
+/* Bootstrap 4 for IE8 - v4.5.0             */
+/* https://github.com/coliff/bootstrap-ie8/ */
 
 // create the nodeType constants if the Node object is not defined
 if (!window.Node){
