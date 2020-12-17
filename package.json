@@ -16,7 +16,7 @@
     "url": "git+https://github.com/coliff/bootstrap-ie8.git"
   },
   "license": "MIT",
-  "author": "Christian Oliff <christianoliff@yahoo.com>",
+  "author": "Christian Oliff (https://christianoliff.com)",
   "main": "css/bootstrap-ie8.css",
   "scripts": {
     "test": "stylelint \"css/*.css\""

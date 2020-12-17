@@ -40,8 +40,8 @@ To fix the dropdown menus and modals you can add the following to the footer:
 
 ```html
 <!--[if gte IE 9]><!-->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 <!--<![endif]-->
 <!--[if IE 9]>
   <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.min.js"></script>
@@ -49,7 +49,7 @@ To fix the dropdown menus and modals you can add the following to the footer:
 <!--[if lte IE 8]>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.js"></script>
 <![endif]-->
 ```
 
