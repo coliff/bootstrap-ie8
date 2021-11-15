@@ -3,5 +3,4 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: weekly
-    versioning-strategy: increase
+      interval: monthly
